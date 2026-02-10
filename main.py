@@ -1,8 +1,3 @@
-import streamlit as st, os, pathlib
-
-st.write("CWD:", os.getcwd())
-st.write("Files in CWD:", os.listdir("."))
-
 import re
 import ast
 from pathlib import Path
@@ -51,6 +46,11 @@ st.markdown(
         background-color: {BG};
       }}
 
+      /* Force readable text colour (Cloud-safe) */
+      .stApp, .stApp * {{
+        color: #1f1f1f;
+      }}
+
       /* Title */
       .weinterpret-title {{
         font-family: "Times New Roman", Times, serif;
@@ -65,13 +65,13 @@ st.markdown(
         max-width: 980px;
         font-size: 1.05rem;
         line-height: 1.45;
-        opacity: 0.9;
         margin: 0 0 1.2rem 0;
+        color: rgba(31,31,31,0.82) !important;
       }}
 
       /* Style Streamlit bordered containers as cards */
       div[data-testid="stVerticalBlockBorderWrapper"] {{
-        background: rgba(255,255,255,0.82);
+        background: rgba(255,255,255,0.96);
         border: 1px solid rgba(0,0,0,0.08) !important;
         border-radius: 16px;
         box-shadow: 0 2px 6px rgba(0,0,0,0.04);
@@ -94,26 +94,11 @@ st.markdown(
         margin-top: 0 !important;
       }}
       .muted {{
-        opacity: 0.75;
+        color: rgba(31,31,31,0.7) !important;
+        opacity: 1 !important;
       }}
-      /* Force readable text colour everywhere */
-        .stApp, .stApp * {
-        color: #1f1f1f;
-        }
-
-        /* Keep muted helper, but don’t wash out important text */
-        .weinterpret-subtitle, .muted {
-        color: rgba(31,31,31,0.82) !important;
-        opacity: 1 !important;   /* remove compounded opacity */
-        }
-
-        /* Make cards solid for consistent contrast */
-        div[data-testid="stVerticalBlockBorderWrapper"] {
-        background: #f7f4ee;   /* or plain white */
-        }
     </style>
     """,
-    
     unsafe_allow_html=True,
 )
 
