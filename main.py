@@ -1,4 +1,8 @@
-# app.py
+import streamlit as st, os, pathlib
+
+st.write("CWD:", os.getcwd())
+st.write("Files in CWD:", os.listdir("."))
+
 import re
 import ast
 from pathlib import Path
