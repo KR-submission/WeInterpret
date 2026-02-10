@@ -70,13 +70,14 @@ st.markdown(
       }}
 
       /* Style Streamlit bordered containers as cards */
-      div[data-testid="stVerticalBlockBorderWrapper"] {{
-        background: rgba(255,255,255,0.96);
-        border: 1px solid rgba(0,0,0,0.08) !important;
+    /* Cards: increase contrast against BG */
+        div[data-testid="stVerticalBlockBorderWrapper"] {
+        background: rgba(255,255,255,0.985);          /* closer to white */
+        border: 1px solid rgba(0,0,0,0.14) !important; /* stronger border */
         border-radius: 16px;
-        box-shadow: 0 2px 6px rgba(0,0,0,0.04);
+        box-shadow: 0 6px 18px rgba(0,0,0,0.08);       /* stronger shadow */
         padding: 12px 16px;
-      }}
+        }}
       div[data-testid="stVerticalBlockBorderWrapper"] > div {{
         padding-top: 0.2rem;
       }}
