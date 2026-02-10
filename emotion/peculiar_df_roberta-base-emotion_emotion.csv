@@ -1,0 +1,997 @@
+level_0,level_1,flagged_columns
+lovely,photographer's_model,"19, 69, 210, 349, 364, 386, 585, 592, 631, 640, 644, 720, 731, 739"
+ceremony,wedding,"20, 29, 67, 69, 137, 182, 276, 290, 419, 603, 670, 681, 697, 718"
+model,photographer's_model,"19, 69, 210, 349, 364, 386, 585, 592, 631, 640, 644, 720, 731, 739"
+assistant,model,"19, 69, 210, 349, 364, 386, 585, 592, 631, 640, 644, 720, 731, 739"
+assistant,worker,"19, 69, 210, 349, 364, 386, 585, 592, 631, 640, 644, 720, 731, 739"
+aid,support,"19, 60, 287, 349, 375, 380, 386, 607, 622, 631, 640, 644, 720, 731"
+blessing,support,"19, 60, 287, 349, 375, 380, 386, 607, 622, 631, 640, 644, 720, 731"
+affair,ceremony,"20, 29, 67, 69, 137, 182, 276, 290, 419, 603, 670, 681, 697, 718"
+beloved,lover,"6, 27, 55, 94, 142, 150, 214, 272, 358, 364, 622, 731, 739"
+desperate,unfortunate,"78, 155, 181, 218, 226, 389, 595, 690, 750, 762"
+faithful,following,"27, 79, 143, 239, 375, 380, 392, 571, 607, 753"
+combatant,person,"30, 61, 140, 205, 304, 397, 456, 458, 600"
+combatant,tough,"30, 61, 140, 205, 304, 397, 456, 458, 600"
+people,sick,"71, 98, 125, 273, 363, 503, 537, 587, 734"
+dawn,hour,"448, 470, 498, 500, 506, 511, 520, 701, 747"
+dying,end,"18, 159, 176, 394, 537, 544, 587, 729, 734"
+movement,wave,"54, 196, 328, 408, 486, 507, 564, 630, 642"
+tsunami,wave,"54, 196, 328, 408, 486, 507, 564, 630, 642"
+condition,discomfort,"62, 82, 153, 180, 181, 502, 526, 662, 669"
+basic_cognitive_process,remembering,"16, 85, 162, 180, 219, 384, 483, 629, 704"
+commodity,drygoods,"11, 40, 103, 341, 513, 650, 682, 695"
+drygoods,white_goods,"11, 40, 103, 341, 513, 650, 682, 695"
+familiarity,information,"28, 88, 174, 236, 648, 671, 682, 689"
+consciousness,waking,"64, 254, 268, 324, 443, 470, 561, 680"
+laundry,white_goods,"11, 40, 103, 341, 513, 650, 682, 695"
+grief,sorrow,"176, 180, 277, 503, 587, 589, 681, 688"
+light,moonlight,"124, 244, 285, 299, 315, 318, 733, 747"
+fault,nonaccomplishment,"10, 46, 222, 249, 405, 449, 575, 622"
+anniversary,day,"142, 189, 359, 366, 491, 557, 656, 696"
+cognitive_state,consciousness,"64, 254, 268, 324, 443, 470, 561, 680"
+pain,suffering,"52, 172, 180, 253, 394, 537, 587, 589"
+heaven,region,"129, 377, 384, 609, 686, 729, 755"
+religion,sect,"283, 290, 464, 522, 577, 701, 711"
+excitement,joy,"421, 493, 499, 528, 607, 713, 718"
+brethren,sect,"283, 290, 464, 522, 577, 701, 711"
+dressing,sauce,"9, 27, 308, 405, 412, 574, 716"
+good,kindness,"10, 149, 192, 206, 292, 306, 667"
+person,warrior,"143, 210, 299, 309, 367, 375, 607"
+attempt,pains,"14, 71, 176, 180, 452, 463, 503"
+disharmony,dissonance,"201, 227, 279, 314, 488, 514, 573"
+adrenaline,hormone,"89, 113, 165, 388, 482, 556, 691"
+adrenaline,vasoconstrictor,"89, 113, 165, 388, 482, 556, 691"
+brave,warrior,"143, 210, 299, 309, 367, 375, 607"
+dissonance,sound_property,"201, 227, 279, 314, 488, 514, 573"
+cleaning,improvement,"84, 212, 623, 650, 692, 695"
+lost,people,"9, 14, 52, 277, 529, 589"
+bodily_process,healing,"5, 83, 207, 353, 364, 733"
+horizontal_surface,paved_surface,"137, 180, 228, 366, 510, 518"
+perception,sensation,"317, 400, 429, 530, 610, 700"
+room,toilet,"7, 110, 112, 185, 327, 391"
+sensation,taste,"317, 400, 429, 530, 610, 700"
+attempt,struggle,"108, 333, 378, 420, 451, 492"
+acknowledgment,thanks,"155, 342, 386, 407, 444, 546"
+acknowledgment,message,"155, 342, 386, 407, 444, 546"
+hurt,ill_health,"155, 172, 358, 561, 691, 757"
+caring,love,"60, 169, 449, 615, 661, 732"
+paved_surface,pavement,"137, 180, 228, 366, 510, 518"
+estrogen,steroid_hormone,"33, 327, 459, 532, 558, 703"
+astonishment,wonder,"25, 106, 157, 193, 543, 646"
+drop,small_indefinite_quantity,"39, 121, 152, 203, 740"
+condition,desperation,"37, 270, 417, 460, 677"
+disposition,unwillingness,"220, 351, 361, 549, 693"
+drop,tear,"39, 121, 152, 203, 740"
+dread,fear,"23, 233, 497, 735, 749"
+badminton,court_game,"1, 46, 280, 486, 759"
+garden,plot,"36, 385, 410, 421, 655"
+condition,luck,"15, 31, 209, 286, 761"
+bodily_process,breath,"50, 94, 159, 354, 530"
+plot,tract,"36, 385, 410, 421, 655"
+reluctance,unwillingness,"220, 351, 361, 549, 693"
+funny,joke,"210, 223, 299, 407, 569"
+athletic_game,court_game,"1, 46, 280, 486, 759"
+sparkling_wine,wine,"233, 433, 518, 524, 750"
+champagne,sparkling_wine,"233, 433, 518, 524, 750"
+powerlessness,quality,"132, 284, 307, 311, 316"
+hypothermia,physical_condition,"66, 178, 465, 520, 758"
+helplessness,powerlessness,"132, 284, 307, 311, 316"
+mixture,substance,"59, 300, 344, 414, 637"
+connection,instrumentality,"31, 155, 272, 294, 634"
+joint,mortise_joint,"31, 155, 272, 294, 634"
+joint,junction,"31, 155, 272, 294, 634"
+feeling,mood,"52, 505, 559, 659, 734"
+choice,willing,"277, 433, 543, 589, 730"
+medium_of_exchange,tender,"9, 52, 250, 499, 646"
+glad,iridaceous_plant,"375, 392, 569, 616, 687"
+complex,whole,"45, 301, 501, 509, 645"
+complex,syndrome,"45, 301, 501, 509, 645"
+concept,whole,"45, 301, 501, 509, 645"
+linguist,phonetician,"239, 267, 331, 364, 731"
+linguist,scientist,"239, 267, 331, 364, 731"
+phonetician,sweet,"239, 267, 331, 364, 731"
+connection,junction,"31, 155, 272, 294, 634"
+dovetail,mortise_joint,"31, 155, 272, 294, 634"
+person,scientist,"239, 267, 331, 364, 731"
+insomnia,sleep_disorder,"77, 99, 132, 232, 758"
+disorder,sleep_disorder,"77, 99, 132, 232, 758"
+heartbeat,periodic_event,"104, 208, 450, 611, 713"
+chrysanthemum,mum,"143, 260, 302, 543, 676"
+chrysanthemum,flower,"143, 260, 302, 543, 676"
+accomplishment,smooth,"111, 309, 315, 473, 595"
+happening,periodic_event,"104, 208, 450, 611, 713"
+desire,wish,"372, 374, 458, 487, 500"
+child,silly,"191, 257, 407, 442, 539"
+credentials,document,"109, 555, 596, 624, 631"
+idealist,romantic,"194, 200, 213, 285, 313"
+idealist,visionary,"194, 200, 213, 285, 313"
+person,visionary,"194, 200, 213, 285, 313"
+reluctance,sloth,"220, 351, 361, 549, 693"
+obscurity,standing,"242, 309, 366, 503, 587"
+diet,fare,"350, 356, 487, 587, 722"
+fare,food,"350, 356, 487, 587, 722"
+oblivion,obscurity,"242, 309, 366, 503, 587"
+breakfast,meal,"64, 76, 353, 765"
+fever,symptom,"66, 460, 484, 584"
+ill_health,infection,"156, 336, 416, 521"
+listening,sensing,"340, 597, 614, 714"
+religious_music,religious_song,"360, 622, 666, 755"
+information,propaganda,"114, 379, 466, 542"
+religious_song,spiritual,"360, 622, 666, 755"
+fool,simpleton,"332, 380, 563, 668"
+anxiety,psychological_state,"334, 374, 520, 750"
+purchase,steal,"229, 274, 304, 491"
+decorativeness,finish,"355, 372, 626, 643"
+direction,orientation,"105, 266, 462, 583"
+horizontal,orientation,"105, 266, 462, 583"
+direction,position,"105, 266, 462, 583"
+boy,male,"156, 426, 566, 633"
+emotion,emotional_state,"129, 419, 569, 705"
+happening,incident,"145, 420, 509, 527"
+emotional_state,happiness,"129, 419, 569, 705"
+beverage,coffee,"139, 211, 223, 264"
+music_genre,religious_music,"360, 622, 666, 755"
+card_game,stops,"245, 423, 608, 671"
+facial_expression,smiling,"315, 473, 477, 761"
+drama,dramatic_composition,"308, 580, 694, 754"
+pull,tug,"203, 233, 582, 680"
+decorativeness,finishing,"46, 84, 355, 433"
+epic,poem,"45, 708, 754, 764"
+literary_composition,poem,"45, 708, 754, 764"
+expressive_style,music_genre,"360, 622, 666, 755"
+alcoholic,drunkard,"52, 240, 659, 732"
+art,dance,"175, 179, 390, 705"
+drinker,drunkard,"52, 240, 659, 732"
+consumer,drinker,"52, 240, 659, 732"
+band,elastic,"420, 441, 657, 746"
+artifact,padding,"422, 608, 683, 741"
+building,theater,"422, 480, 707, 763"
+band,strip,"420, 441, 657, 746"
+scratch,wound,"68, 186, 555, 719"
+consumption,sucking,"57, 248, 588, 690"
+commitment,message,"124, 134, 497, 621"
+commitment,promise,"124, 134, 497, 621"
+gut,internal_organ,"119, 487, 515, 531"
+due_process,proceeding,"41, 58, 292, 298"
+hearing,proceeding,"41, 58, 292, 298"
+due_process,group_action,"41, 58, 292, 298"
+opportunity,possibility,"215, 255, 347, 761"
+servant,worker,"28, 116, 501, 541"
+lid,protective_fold,"22, 86, 620, 645"
+animal,giant,"2, 358, 401, 446"
+hour,mealtime,"26, 454, 572, 636"
+animal_tissue,flap,"22, 86, 620, 645"
+fucking,sexual_intercourse,"297, 345, 545, 674"
+familiar,servant,"28, 116, 501, 541"
+flap,protective_fold,"22, 86, 620, 645"
+lunchtime,mealtime,"26, 454, 572, 636"
+art,graphic_art,"294, 498, 666, 760"
+graphic_art,painting,"294, 498, 666, 760"
+condition,orderliness,"297, 489, 714"
+calm,disposition,"111, 228, 455"
+electronic_equipment,telephone,"471, 763, 768"
+canvas,fabric,"135, 361, 654"
+county,region,"131, 161, 636"
+drink,helping,"399, 553, 703"
+environment,surroundings,"413, 628, 655"
+irritation,psychological_state,"263, 535, 555"
+data_processing,operation,"262, 698, 723"
+flirt,woman,"566, 633, 730"
+fixture,plumbing_fixture,"120, 388, 574"
+artifact,fixture,"120, 388, 574"
+attacker,predator,"439, 608, 759"
+plumbing_fixture,shower,"120, 388, 574"
+set,teeth,"107, 406, 715"
+financial_condition,poverty,"11, 146, 187"
+condition,financial_condition,"11, 146, 187"
+deprivation,poverty,"11, 146, 187"
+act,departure,"11, 477, 510"
+departure,disappearance,"11, 477, 510"
+murmur,sound,"12, 413, 474"
+devotion,love,"250, 256, 638"
+combination,consolidation,"80, 106, 604"
+sanitariness,sanitary_condition,"75, 84, 584"
+condition,sanitary_condition,"75, 84, 584"
+approval,credit,"75, 158, 562"
+elevator,lifting_device,"82, 643, 767"
+accident,happening,"85, 301, 425"
+accident,coincidence,"85, 301, 425"
+affair,party,"79, 569, 696"
+jolly,party,"79, 569, 696"
+amalgamation,consolidation,"80, 106, 604"
+change_of_integrity,combination,"80, 106, 604"
+activity,help,"164, 283, 660"
+baby,newborn,"167, 521, 663"
+optical_instrument,spectacles,"368, 369, 540"
+shades,spectacles,"368, 369, 540"
+instrument,optical_instrument,"368, 369, 540"
+cranial_nerve,facial,"377, 432, 745"
+readiness,ready,"369, 698, 728"
+readiness,state,"369, 698, 728"
+loss,transferred_property,"90, 277, 589"
+entreaty,wooing,"105, 362, 589"
+animal_tissue,nervous_tissue,"377, 432, 745"
+fiber_bundle,nerve,"377, 432, 745"
+fiber_bundle,nervous_tissue,"377, 432, 745"
+cranial_nerve,nerve,"377, 432, 745"
+party,sociable,"381, 413, 608"
+hazel,tree,"154, 326, 418"
+night,time_period,"146, 431, 702"
+disciple,follower,"147, 254, 541"
+Apostle,disciple,"147, 254, 541"
+Apostle,peter,"147, 254, 541"
+bedclothes,cloth_covering,"151, 319, 474"
+cloth_covering,covering,"151, 319, 474"
+bedclothes,blanket,"151, 319, 474"
+glow,good_health,"152, 369, 414"
+good_health,physical_condition,"152, 369, 414"
+natural_object,universe,"132, 301, 625"
+chromatic_color,purple,"163, 172, 281"
+defeated,people,"154, 511, 525"
+entreaty,request,"105, 362, 589"
+relative,sibling,"106, 286, 602"
+baseball_equipment,mound,"112, 235, 709"
+cause,factor,"59, 468, 574"
+factor,fundamental,"59, 468, 574"
+breakfast_food,cereal,"73, 508, 743"
+grits,hot_cereal,"73, 508, 743"
+consequence,repercussion,"72, 594, 726"
+geographical_area,surround,"188, 226, 377"
+body_of_water,ocean,"355, 376, 409"
+nutriment,treat,"194, 589, 726"
+hygiene,sanitariness,"75, 84, 584"
+breakfast_food,food,"73, 508, 743"
+cereal,hot_cereal,"73, 508, 743"
+classification,dichotomy,"30, 591, 604"
+fabric,metallic,"63, 93, 291"
+device,lifting_device,"82, 643, 767"
+giggle,laugh,"70, 216, 635"
+physical_condition,pregnancy,"59, 365, 742"
+feeling,gratitude,"239, 320, 613"
+consumption,suck,"248, 337, 508"
+dinner,meal,"312, 665, 703"
+kilter,orderliness,"297, 489, 714"
+delivery,transportation,"321, 547, 649"
+affair,celebration,"323, 408, 411"
+fishing,outdoor_sport,"317, 465, 752"
+ale,bitter,"234, 295, 333"
+ale,beer,"234, 295, 333"
+grandfather,grandparent,"214, 534, 571"
+baseball_equipment,sports_equipment,"112, 235, 709"
+mistake,nonaccomplishment,"108, 164, 763"
+blunder,mistake,"108, 164, 763"
+blunder,fumble,"108, 164, 763"
+custom,habit,"114, 335, 628"
+coming,motion,"115, 138, 685"
+break,happening,"110, 357, 457"
+operation,sorting,"262, 698, 723"
+material_resource,riches,"258, 638, 699"
+lame,simpleton,"14, 36, 570"
+easter,movable_feast,"296, 435, 577"
+feast_day,movable_feast,"296, 435, 577"
+day,holiday,"296, 435, 577"
+feast_day,holiday,"296, 435, 577"
+impatience,irritation,"263, 535, 555"
+magazine,press,"261, 505, 576"
+data_processing,processing,"262, 698, 723"
+process,processing,"262, 698, 723"
+building,theatre,"26, 548, 705"
+leisure,vacation,"28, 533, 652"
+aid,service,"41, 231, 278"
+childcare,daycare,"41, 231, 278"
+childcare,service,"41, 231, 278"
+duty,function,"703, 738"
+conveyance,tram,"684, 685"
+duty,work,"703, 738"
+behalf,stead,"703, 738"
+empathy,sympathy,"16, 615"
+lyric,text,"17, 738"
+astonishment,surprise,"16, 344"
+male,male_child,"13, 278"
+male_child,schoolboy,"13, 278"
+feeling,sensitivity,"662, 696"
+feelings,sensitivity,"662, 696"
+bible,sacred_text,"42, 383"
+housing,structure,"35, 179"
+apartment,housing,"35, 179"
+plant_material,wood,"32, 632"
+spruce,wood,"32, 632"
+material,plant_material,"32, 632"
+gift,giveaway,"33, 599"
+jewel,jewelry,"613, 683"
+applicant,person,"578, 736"
+enthusiasm,feeling,"578, 710"
+anticipation,hope,"558, 593"
+epidural,regional_anesthesia,"563, 706"
+anesthesia,physical_condition,"563, 706"
+anesthesia,regional_anesthesia,"563, 706"
+firearm,gun,"565, 735"
+sacred_text,writing,"42, 383"
+future,time,"245, 434"
+spouse,wife,"238, 444"
+activity,preparation,"241, 590"
+crazy,lunatic,"583, 684"
+lunatic,sick_person,"583, 684"
+planet,terrestrial_planet,"597, 678"
+earth,terrestrial_planet,"597, 678"
+applicant,hopeful,"578, 736"
+field_game,outdoor_game,"304, 440"
+field_game,hockey,"304, 440"
+athletic_game,outdoor_game,"304, 440"
+battering,fight,"246, 520"
+buddy,friend,"248, 744"
+ambassador,diplomat,"242, 435"
+diplomat,official,"242, 435"
+official,skilled_worker,"242, 435"
+plan,schedule,"476, 762"
+payment,spending,"459, 472"
+dish,snack_food,"467, 485"
+sandwich,snack_food,"467, 485"
+dish,nutriment,"467, 485"
+lunch,meal,"454, 665"
+commerce,payment,"459, 472"
+hostel,hotel,"114, 205"
+solanaceous_vegetable,vegetable,"136, 186"
+pepper,solanaceous_vegetable,"136, 186"
+hot_pepper,pepper,"136, 186"
+travel,walk,"133, 187"
+hike,walk,"133, 187"
+approval,encouragement,"134, 589"
+produce,vegetable,"136, 186"
+natural_process,phase_change,"469, 479"
+macromolecule,protein,"402, 434"
+excess,overabundance,"398, 757"
+abundance,overabundance,"398, 757"
+blow,punch,"393, 568"
+season,summer,"140, 612"
+headway,room,"141, 217"
+position,room,"141, 217"
+chilli,hot_pepper,"136, 186"
+educator,teacher,"438, 627"
+educator,professional,"438, 627"
+gather,sewing,"439, 706"
+lover,steady,"441, 511"
+Indian,bohemian,"437, 469"
+Asian,person_of_color,"437, 469"
+Asian,Indian,"437, 469"
+person,person_of_color,"437, 469"
+collection,content,"104, 737"
+coach,trainer,"102, 213"
+leader,trainer,"102, 213"
+pale,strip,"103, 717"
+building_material,lumber,"103, 717"
+lumber,strip,"103, 717"
+imagination,representational_process,"97, 164"
+dream,imagination,"97, 164"
+life,time_period,"485, 576"
+days,life,"485, 576"
+dimension,height,"487, 589"
+dimension,magnitude,"487, 589"
+exhilaration,thrill,"103, 209"
+exhilaration,joy,"103, 209"
+facial_hair,whiskers,"104, 766"
+facial_hair,hair,"104, 766"
+lesson,teaching,"381, 558"
+barrier,movable_barrier,"370, 427"
+decrease,process,"503, 672"
+decline,decrease,"503, 672"
+compassion,sympathy,"504, 615"
+bone,tooth,"483, 756"
+pearly,tooth,"483, 756"
+animal_tissue,connective_tissue,"483, 756"
+computer,website,"117, 233"
+care,pedicure,"108, 152"
+freshness,newness,"105, 399"
+age,newness,"105, 399"
+present,today,"161, 237"
+message,offer,"156, 322"
+offer,special,"156, 322"
+peter,saint,"147, 541"
+fake,imitation,"81, 706"
+copy,representation,"81, 706"
+melancholy,sadness,"76, 582"
+infirmity,unfitness,"74, 103"
+infirmity,wasting,"74, 103"
+ill_health,unfitness,"74, 103"
+change_of_state,chewing,"510, 713"
+larceny,petty,"504, 600"
+indefinite_quantity,large_indefinite_quantity,"177, 653"
+bad,liability,"183, 396"
+disadvantage,liability,"183, 396"
+precious_metal,valuable,"168, 537"
+drug,medicine,"170, 279"
+antidiabetic,metformin,"170, 279"
+antidiabetic,medicine,"170, 279"
+copy,imitation,"81, 706"
+obstruction,structure,"370, 427"
+door,movable_barrier,"370, 427"
+disadvantage,drawback,"183, 396"
+catch,drawback,"183, 396"
+gait,waddle,"187, 673"
+gait,walk,"187, 673"
+excavation,pool,"173, 551"
+large_indefinite_quantity,lots,"177, 653"
+basic_cognitive_process,representational_process,"97, 164"
+bout,part,"91, 693"
+bone,connective_tissue,"483, 756"
+freezing,phase_change,"469, 479"
+perfect,tense,"369, 627"
+grammatical_category,tense,"369, 627"
+class,grammatical_category,"369, 627"
+barrier,obstruction,"370, 427"
+advocate,supporter,"522, 586"
+advocate,person,"522, 586"
+foreplay,sexual_activity,"72, 282"
+fondling,foreplay,"72, 282"
+small_indefinite_quantity,tad,"65, 766"
+activity,supporting,"60, 267"
+collection,heap,"56, 352"
+eighty,large_integer,"34, 259"
+clean,weightlift,"188, 653"
+appearance,decorativeness,"355, 626"
+garage,outbuilding,"348, 376"
+receptacle,tidy,"339, 391"
+container,receptacle,"339, 391"
+moment,point,"513, 712"
+nap,time_period,"519, 675"
+believer,supporter,"522, 586"
+electronic_communication,transmission,"204, 335"
+baked_goods,food,"197, 249"
+baked_goods,bread,"197, 249"
+bread,toast,"197, 249"
+adipose_tissue,cellulite,"199, 303"
+adipose_tissue,animal_tissue,"199, 303"
+bodybuilding,exercise,"188, 653"
+bodybuilding,weightlift,"188, 653"
+felony,larceny,"504, 600"
+crime,felony,"504, 600"
+delight,pleasure,"507, 520"
+plastic,solid,"490, 539"
+guidance,message,"500, 560"
+gold,precious_metal,"168, 537"
+communication,transmission,"204, 335"
+electronic_communication,email,"204, 335"
+decade,eighties,"322, 470"
+time_period,weekend,"325, 647"
+daylight,time_period,"318, 601"
+furniture,table,"322, 403"
+desk,table,"322, 403"
+feeling,pain,"308, 324"
+distress,pain,"308, 324"
+fairy,spiritual_being,"302, 745"
+grandmother,grandparent,"214, 571"
+little,small_indefinite_quantity,"218, 600"
+person,straight,"219, 732"
+airbus,airliner,"206, 579"
+airliner,airplane,"206, 579"
+garbage,waste,"212, 567"
+area,refuge,"213, 269"
+decade,time_period,"322, 470"
+aviator,skilled_worker,"525, 765"
+aviator,pilot,"525, 765"
+doomed,people,"330, 503"
+abundance,plenty,"331, 620"
+blond,person,"227, 411"
+unfortunate,victim,"224, 445"
+forebear,grandparent,"214, 571"
+ancestor,forebear,"214, 571"
+hours,work_time,"53, 170"
+time_period,work_time,"53, 170"
+hostile,military_personnel,"47, 252"
+land,sod,"42, 582"
+frequency,ratio,"44, 617"
+frequency,incidence,"44, 617"
+magnitude_relation,ratio,"44, 617"
+drive,propulsion,"556, 601"
+conduit,passage,"297, 616"
+passage,way,"297, 616"
+hose,tube,"297, 616"
+conduit,tube,"297, 616"
+airline,hose,"297, 616"
+achiever,natural,"289, 393"
+function,stead,"703, 738"
+importance,standing,"605, 608"
+photography,process,"274, 606"
+adversity,misfortune,"259, 471"
+fortune,misfortune,"259, 471"
+information,stimulation,"251, 618"
+negative_stimulus,stimulation,"251, 618"
+burden,concern,"251, 618"
+concern,negative_stimulus,"251, 618"
+adversity,disaster,"259, 471"
+property,trust,"24, 507"
+anxiety,emotion,"21, 430"
+anxiety,disquiet,"21, 430"
+celestial_body,planet,"597, 678"
+person,primitive,"597, 737"
+primitive,savage,"597, 737"
+float,time_interval,"598, 713"
+planning,preparation,"241, 590"
+diamond,jewel,"613, 683"
+basic_cognitive_process,inattention,"28, 55"
+disregard,inattention,"28, 55"
+disregard,omission,"28, 55"
+exception,omission,"28, 55"
+church,religion,"26, 220"
+couple,pair,"23, 538"
+gathering,pair,"23, 538"
+occupation,trade,"126, 410"
+handicraft,weaving,"126, 410"
+comment,statement,"120, 517"
+affection,feeling,"120, 507"
+attempt,best,"123, 310"
+guitar,stringed_instrument,"118, 674"
+lifetime,time_period,"119, 225"
+deity,goddess,"451, 579"
+embarrassment,shame,"4, 751"
+inclination,sympathy,"4, 536"
+attitude,inclination,"4, 536"
+pity,sympathy,"4, 345"
+inaction,state,"4, 419"
+halt,inaction,"4, 419"
+day,evening,"125, 668"
+handicraft,trade,"126, 410"
+animal_tissue,flesh,"728, 759"
+knocking,sound,"8, 766"
+alignment,placement,"5, 447"
+alignment,true,"5, 447"
+landlord,landowner,"6, 131"
+holder,landowner,"6, 131"
+holder,owner,"6, 131"
+owner,person,"6, 131"
+emphasis,importance,"605, 608"
+longer,person,"293, 305"
+act,running_away,"293, 444"
+escape,running_away,"293, 444"
+photography,scanning,"274, 606"
+minutes,written_record,"275, 761"
+creation,piece,"283, 760"
+article,piece,"283, 760"
+clasp,grasping,679
+clasp,embrace,679
+contact,touch,11
+needy,poor_people,13
+people,poor_people,13
+attire,clothing,13
+attire,costume,13
+enterprise,organization,15
+enlisted_person,soldier,664
+advantage,asset,666
+advantage,lead,666
+middle,point,672
+deep,middle,672
+shorebird,wading_bird,675
+sandpiper,shorebird,675
+aquatic_bird,wading_bird,675
+caustic,compound,658
+pinniped_mammal,walrus,659
+aquatic_mammal,pinniped_mammal,659
+aquatic_mammal,placental,659
+fact,truth,662
+memory,representation,663
+fodder,soldier,664
+enlisted_person,serviceman,664
+handbook,reference_book,643
+book,reference_book,643
+graphics,visual_communication,651
+offer,speech_act,651
+force,men,653
+paper,sheet,657
+leaf,sheet,657
+leaf,page,657
+present,tonight,267
+confusion,disorder,270
+disorder,state,270
+musical_performance,performance,271
+presentation,show,271
+performance,presentation,271
+time_period,times,271
+laborer,workman,234
+discovery,finding,249
+hostage,prisoner,265
+prisoner,unfortunate,265
+hospital,medical_building,265
+building,medical_building,265
+travel,water_travel,266
+ocean_trip,water_travel,266
+cruise,ocean_trip,266
+photo,representation,278
+designation,diagnosis,283
+determination,discovery,283
+designation,determination,283
+screen,surface,288
+autumn,season,294
+boyfriend,lover,295
+envy,jealousy,297
+gamma_hydroxybutyrate,max,748
+club_drug,gamma_hydroxybutyrate,748
+club_drug,controlled_substance,748
+deterioration,wear,754
+act,implementation,758
+implementation,means,758
+article,nonfiction,760
+nonfiction,prose,760
+allotment,distribution,205
+motion,traveling,206
+hominid,human,209
+education,teaching,221
+education,profession,221
+occupation,profession,221
+building,hotel,221
+forum,meeting,227
+abstinence,self-denial,305
+abstinence,fast,305
+engagement,military_action,314
+concentration,focusing,319
+address,geographic_point,322
+home,residence,322
+address,residence,322
+prevention,save,329
+card_game,whist,246
+hearts,whist,246
+examination,scan,246
+brightness,brilliance,247
+information,skinny,248
+idiot,simpleton,300
+jar,vessel,300
+control,self-denial,305
+cowboy,ranch_hand,234
+employee,worker,234
+employee,workman,234
+hired_hand,laborer,234
+hired_hand,ranch_hand,234
+derivative_instrument,legal_document,238
+derivative_instrument,option,238
+darkness,illumination,243
+creating_by_removal,creation,195
+boring,creating_by_removal,195
+building_material,shake,198
+nature,quality,199
+creation,original,202
+award,grant,205
+allotment,grant,205
+foreigner,traveler,163
+mercantile_establishment,store,351
+artifact,opening,355
+exit,opening,355
+acquiring,capture,190
+reading,studying,191
+kill,termination,192
+change_of_state,termination,192
+accusation,blame,192
+conic_section,plane_figure,343
+figure,plane_figure,343
+conic_section,ellipse,343
+figure,shape,343
+line,path,346
+direction,path,346
+history,past,346
+married,person,351
+happening,success,230
+magnitude,size,231
+hindrance,prevention,329
+act,hindrance,329
+posting,sign,336
+communication,sign,336
+chuckle,laugh,338
+circle,ellipse,343
+fair,show,148
+jewelry,pin,160
+input,signal,160
+part,rest,161
+perception,somesthesia,162
+temperature,warmth,162
+somesthesia,temperature,162
+knowing,understanding,130
+letting,property,371
+beagle,hound,373
+hound,hunting_dog,373
+dog,hunting_dog,373
+impossibility,impossible,378
+impossibility,option,378
+body_of_water,sea,144
+amazon,woman,148
+side,surface,173
+cooperation,group_action,184
+conformity,cooperation,184
+conformity,keeping,184
+fiction,novel,187
+causal_agent,vital_principle,360
+spirit,vital_principle,360
+minute,time_unit,368
+haul,pull,164
+activity,search,164
+content,thought,165
+goal,intent,166
+crowd,gathering,171
+boundary,surface,173
+bottom,side,173
+bottom,heel,173
+degree,high,404
+bear,carnivore,405
+poetry,writing_style,408
+jest,wit,415
+fellow,male,424
+creating_by_mental_acts,verbal_creation,427
+creating_by_mental_acts,creation,427
+verbal_creation,writing,427
+football_play,play,400
+football_play,running,400
+fee,fixed_charge,401
+fee,tuition,401
+charge,cost,401
+charge,fixed_charge,401
+elasticity,physical_property,403
+bounce,elasticity,403
+endurance,strength,382
+asset,resource,387
+aid,resource,387
+feeling,humour,395
+flow,overflow,398
+flow,motion,398
+awareness,feel,400
+plan_of_action,play,400
+body_part,shoulder,133
+heart,intuition,135
+impression,intuition,135
+message,tale,135
+breathing,smoking,138
+attribute,space,141
+endurance,stamina,382
+legs,stamina,382
+spiciness,taste_property,127
+spiciness,tang,127
+property,taste_property,127
+people,peoples,127
+time_period,year,127
+earnestness,gravity,128
+feeling,gravity,128
+activity,hiding,107
+geological_process,natural_process,120
+geological_process,wearing,120
+leave,time_off,122
+motor_vehicle,self-propelled_vehicle,122
+car,motor_vehicle,122
+container,wheeled_vehicle,122
+self-propelled_vehicle,wheeled_vehicle,122
+promise,speech_act,124
+singing,vocal_music,437
+karaoke,singing,437
+conversation,talking,442
+building,house,442
+movement,seek,444
+guy,man,444
+gathering,grade,444
+attitude,mindset,449
+large_integer,thirty,428
+typing,writing,431
+marathon,undertaking,435
+box,strongbox,436
+safe,strongbox,436
+musical_performance,singing,437
+music,vocal_music,437
+activity,music,437
+instrument,medical_instrument,478
+officer,serviceman,481
+progestin,steroid_hormone,482
+progesterone,progestin,482
+fact,specific,92
+disturbance,motion,95
+disturbance,havoc,95
+concentrate,ore,96
+consumption,eating,468
+bodily_process,tears,469
+actor's_line,aside,474
+actor's_line,line,474
+bodily_process,crying,475
+bar,room,476
+douche,syringe,478
+medical_instrument,syringe,478
+person,suspect,454
+addiction,drug_addiction,457
+addiction,physical_condition,457
+alcoholism,drug_addiction,457
+ending,outcome,458
+beam,moonbeam,461
+beam,light,461
+billion,large_integer,462
+effort,exercising,107
+better,good,111
+good,quality,111
+denial,negative,115
+denial,speech_act,115
+heading,title,115
+difficulty,fix,118
+day,yesterday,453
+service,work,74
+action,taking,77
+falsification,wrongdoing,82
+falsification,lying,82
+place,point,87
+blow,impact,53
+bash,blow,53
+hunting,outdoor_sport,56
+cage,enclosure,509
+area,enclosure,509
+representation,stereotype,510
+asthma,respiratory_disease,510
+classic,creation,511
+calmness,quiet,512
+calmness,good_weather,512
+decoration,hanging,74
+feedback,natural_process,485
+concentration,focus,494
+chemical_phenomenon,exchange,496
+chemical_phenomenon,natural_phenomenon,496
+kith,social_group,505
+eager,tidal_flow,506
+current,tidal_flow,506
+current,flow,506
+mineral,ore,96
+material,mineral,96
+action,interaction,97
+contact,interaction,97
+innocent,person,100
+nakedness,raw,100
+condition,nakedness,100
+adult,host,101
+career,occupation,554
+bodily_process,breathing,554
+flex,flexion,556
+retaliation,return,43
+group_action,return,43
+aerosol,smoke,44
+aerosol,cloud,44
+idea,inspiration,47
+fundamental_quantity,temperature,546
+coldness,temperature,546
+coldness,cool,546
+close,end,549
+external_body_part,face,550
+circumstances,condition,551
+fatality,killing,552
+death,fatality,552
+difficulty,pinch,523
+curve,line,523
+line,shape,523
+curve,turn,523
+morning,time_period,526
+cardiopulmonary_exercise,exercise,531
+cardiopulmonary_exercise,jogging,531
+coldness,vasoconstrictor,546
+flare,shape,58
+fuel,lighter,73
+fuel,substance,73
+good_weather,weather,512
+motion,sitting,514
+propulsion,shooting,516
+holiday,leisure,523
+greatness,importance,523
+swimming,water_sport,598
+sport,water_sport,598
+en,linear_unit,21
+apple,edible_fruit,21
+motion,vibration,23
+math,science,24
+discipline,science,24
+saying,speech,24
+acting,activity,577
+achievement,action,581
+internal_organ,stomach,589
+achromatic_color,black,591
+achromatic_color,color,591
+ending,stop,592
+activity,effort,598
+floating,swimming,598
+garment,trouser,31
+shorts,trouser,31
+free,people,38
+bending,flexion,556
+change,change_of_shape,556
+bending,change_of_shape,556
+custom,wont,567
+enjoyment,pleasure,569
+holy,topographic_point,48
+point,topographic_point,48
+extent,limit,48
+fashion,property,49
+linear_unit,miler,50
+canoe,small_boat,51
+boat,small_boat,51
+ego,pride,51
+appearance,representation,641
+appearance,illusion,641
+apparition,ghost,641
+apparition,illusion,641
+feat,stunt,641
+acrobatic_stunt,split,641
+acrobatic_stunt,stunt,641
+guidebook,handbook,643
+victory,win,635
+star,sun,635
+concave_shape,solid,639
+shape,solid,639
+concave_shape,depression,639
+depression,dip,639
+option,possibility,641
+possibility,possible,641
+adverb,modifier,616
+content_word,modifier,616
+adverb,positive,616
+content_word,word,616
+informality,manner,619
+demeanor,trait,619
+demeanor,manner,619
+ending,victory,635
+accomplishment,liberation,604
+legal_document,return,611
+message,proposal,613
+advice,proposal,613
+sound,ticking,614
+questioning,request,614
+physical_property,reflection,614
+echo,reflection,614
+educational_institution,school,724
+disjunction,incoherence,725
+disjunction,separation,725
+dress,gown,727
+prose,writing_style,760
+device,warmer,762
+juvenile,kid,763
+report,yarn,765
+discontentment,dissatisfaction,721
+discontentment,longing,721
+disappointment,dissatisfaction,721
+disappointment,frustration,721
+management,social_control,723
+management,treatment,723
+dealing,treatment,723
+educational_institution,institution,724
+female_sibling,kinswoman,707
+installment,payment,709
+local,public_transport,713
+conveyance,public_transport,713
+atmosphere,gas,714
+atmosphere,sky,714
+comparison,examination,716
+cover,covering,717
+business,enterprise,15
+effects,personal_property,693
+personal_property,property,693
+briar,rose,694
+descent,steep,698
+descent,slope,698
+kinswoman,relative,707
+female_sibling,sister,707
+atm,pressure_unit,743
+pressure_unit,unit_of_measurement,743
+chosen,darling,746
+darling,lover,746
+connection,join,747
+connection,shape,747
+maxim,saying,748
+controlled_substance,drug,748
+friendship,relationship,731
+farm,workplace,736
+mechanical_device,mechanism,736
+grab,mechanical_device,736
+inflammation,symptom,736
+deterioration,devastation,738
+devastation,ruin,738
+challenge,situation,741
+sadness,sorrow,9
+angiospermous_tree,fruit_tree,727
+citrus,fruit_tree,727
+citrus,mandarin,727
+angiospermous_tree,tree,727
+childhood,time_of_life,727
+skate,sports_equipment,728
+relationship,state,731
+flight,trip,1
+flight,nonstop,1
+look,watching,2
+look,sensing,2
+experience,happening,3
+experience,ordeal,3
+airfield,facility,7
+airfield,airport,7

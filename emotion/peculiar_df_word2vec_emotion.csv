@@ -1,0 +1,682 @@
+level_0,level_1,flagged_columns
+banker,financier,"188, 254, 273, 284"
+capitalist,financier,"188, 254, 273, 284"
+mistake,nonaccomplishment,"73, 118, 183, 192"
+blunder,mistake,"73, 118, 183, 192"
+blunder,fumble,"73, 118, 183, 192"
+banker,cashier,"188, 254, 273, 284"
+capitalist,person,"188, 254, 273, 284"
+coat,jacket,"81, 107, 234"
+material_resource,riches,"48, 197, 247"
+alcoholic,drunkard,"6, 114, 225"
+estrogen,steroid_hormone,"101, 148, 150"
+inflammation,symptom,"220, 287, 296"
+bodily_process,healing,"103, 125, 296"
+kin,relative,"106, 285, 293"
+head,leader,"194, 217, 299"
+academic_administrator,administrator,"194, 217, 299"
+administrator,head,"194, 217, 299"
+academic_administrator,dean,"194, 217, 299"
+condition,discomfort,"77, 125, 281"
+lunch,meal,"77, 159, 288"
+magazine,press,"35, 71, 157"
+cap,headdress,"30, 69, 184"
+firearm,gun,"133, 193, 244"
+anniversary,day,"9, 15, 118"
+drinker,drunkard,"6, 114, 225"
+Asian,person_of_color,"134, 148, 254"
+Asian,Indian,"134, 148, 254"
+Indian,bohemian,"134, 148, 254"
+person,person_of_color,"134, 148, 254"
+animal_material,dentine,"137, 172, 267"
+dentine,ivory,"137, 172, 267"
+pause,wait,"17, 271, 272"
+consumer,drinker,"6, 114, 225"
+officer,serviceman,"18, 169, 286"
+deity,goddess,"18, 214"
+blank,character,"161, 270"
+bird,meat,"19, 53"
+bird,poultry,"19, 53"
+duck,duckling,"19, 53"
+duck,poultry,"19, 53"
+acrobatic_stunt,split,"172, 255"
+fuel,substance,"160, 237"
+fuel,lighter,"160, 237"
+melancholy,sadness,"148, 200"
+person,visionary,"148, 164"
+idealist,romantic,"148, 164"
+idealist,visionary,"148, 164"
+physical_property,reflection,"22, 89"
+echo,reflection,"22, 89"
+oblivion,obscurity,"145, 255"
+obscurity,standing,"145, 255"
+force,troops,"141, 229"
+dream,imagination,"137, 142"
+basic_cognitive_process,representational_process,"137, 142"
+imagination,representational_process,"137, 142"
+acrobatic_stunt,stunt,"172, 255"
+fake,imitation,"15, 72"
+chair,seat,"136, 176"
+copy,representation,"15, 72"
+copy,imitation,"15, 72"
+feat,stunt,"172, 255"
+relation,relationship,"173, 286"
+aquatic_bird,waterfowl,"12, 49"
+fiction,novel,"129, 276"
+bout,part,"124, 254"
+reluctance,unwillingness,"122, 277"
+anseriform_bird,goose,"12, 49"
+disposition,unwillingness,"122, 277"
+reluctance,sloth,"122, 277"
+South_African_monetary_unit,rand,"32, 300"
+South_African_monetary_unit,monetary_unit,"32, 300"
+unfortunate,victim,"120, 227"
+hypothermia,physical_condition,"119, 223"
+billion,large_integer,"116, 188"
+natural_object,universe,"115, 209"
+electronic_equipment,telephone,"114, 178"
+hillside,slope,"114, 181"
+anseriform_bird,waterfowl,"12, 49"
+delivery,transportation,"113, 266"
+conveyance,tram,"113, 259"
+apple,edible_fruit,"110, 251"
+fabric,metallic,"201, 280"
+travel,walk,"105, 230"
+hike,walk,"105, 230"
+skate,sports_equipment,"104, 300"
+anesthesia,regional_anesthesia,"104, 155"
+anesthesia,physical_condition,"104, 155"
+epidural,regional_anesthesia,"104, 155"
+body,college,"208, 239"
+flu,respiratory_disease,"40, 108"
+lid,protective_fold,"101, 190"
+angiospermous_tree,fruit_tree,"42, 101"
+citrus,mandarin,"42, 101"
+angiospermous_tree,tree,"42, 101"
+citrus,fruit_tree,"42, 101"
+animal_tissue,flap,"101, 190"
+nap,time_period,"43, 250"
+flap,protective_fold,"101, 190"
+graphics,visual_communication,"227, 235"
+hormone,steroid_hormone,"101, 148"
+progesterone,progestin,"101, 206"
+progestin,steroid_hormone,"101, 206"
+banjo,stringed_instrument,"99, 100"
+followers,multitude,"94, 124"
+adipose_tissue,animal_tissue,"241, 272"
+container,purse,"94, 175"
+antidiabetic,metformin,"93, 109"
+accomplishment,smooth,"49, 132"
+kith,social_group,"50, 126"
+drug,medicine,"93, 109"
+antidiabetic,medicine,"93, 109"
+bodily_process,tears,"92, 280"
+United_States_liquid_unit,gallon,"86, 275"
+United_States_liquid_unit,liquid_unit,"86, 275"
+liquid_unit,volume_unit,"86, 275"
+disorder,sleep_disorder,"53, 105"
+insomnia,sleep_disorder,"53, 105"
+unit_of_measurement,volume_unit,"86, 275"
+religion,theological_virtue,"55, 236"
+representation,stereotype,"85, 207"
+message,tale,"84, 282"
+adipose_tissue,cellulite,"241, 272"
+badminton,court_game,"3, 290"
+athletic_game,court_game,"3, 290"
+photo,representation,"76, 264"
+chrysanthemum,mum,"74, 177"
+chrysanthemum,flower,"74, 177"
+report,yarn,"74, 215"
+disorder,ill,"243, 251"
+iridaceous_plant,iris,"252, 260"
+asthma,respiratory_disease,"285, 298"
+deterioration,wear,"72, 283"
+drygoods,white_goods,"71, 249"
+commodity,drygoods,"71, 249"
+laundry,white_goods,"71, 249"
+lefty,person,"70, 113"
+property,taste_property,"68, 132"
+spiciness,taste_property,"68, 132"
+spiciness,tang,"68, 132"
+expressive_style,music_genre,63
+excavation,working,63
+achievement,action,64
+contempt,dislike,65
+legal_document,license,66
+action,hum,67
+action,state,67
+music_genre,religious_music,63
+religious_music,religious_song,63
+religious_song,spiritual,63
+tart,woman,68
+condition,danger,69
+chemical_phenomenon,exchange,62
+comparison,examination,70
+chemical_phenomenon,natural_phenomenon,62
+foreplay,sexual_activity,62
+fondling,foreplay,62
+artifact,padding,71
+location,space,72
+legal_status,marital_status,61
+amorphous_shape,shape,72
+amorphous_shape,space,72
+opening,space,72
+hole,opening,72
+marital_status,marriage,61
+legal_status,status,61
+hostile,military_personnel,61
+sound,twitter,60
+sewing,stitch,74
+cast,gathering,59
+sound,ticking,58
+function,stead,75
+duty,function,75
+behalf,stead,75
+duty,work,75
+attire,costume,57
+attire,clothing,57
+hostel,hotel,56
+cardiopulmonary_exercise,exercise,78
+cardiopulmonary_exercise,jogging,78
+good,kindness,79
+electromagnetic_unit,unit_of_measurement,80
+current_unit,electromagnetic_unit,80
+amp,current_unit,80
+Hinduism,religion,55
+flirt,woman,81
+direction,path,81
+line,path,81
+decrease,process,82
+decline,decrease,82
+aptitude,instinct,83
+rough,site,83
+site,tract,83
+priesthood,profession,84
+body,occupational_group,84
+ministry,priesthood,84
+occupational_group,profession,84
+Hinduism,yoga,55
+belief,religion,55
+girl,woman,85
+medium_of_exchange,money,54
+decade,time_period,52
+decade,eighties,52
+condition,luck,52
+letter,pe,86
+land,sod,87
+drop,small_indefinite_quantity,88
+drop,tear,88
+connection,shape,88
+connection,join,88
+abundance,overabundance,88
+excess,overabundance,88
+device,warmer,90
+internal_organ,stomach,90
+growing,organic_process,91
+hunting,outdoor_sport,52
+headway,room,51
+position,room,51
+electricity,physical_phenomenon,49
+emotional_state,happiness,93
+emotion,emotional_state,93
+cover,covering,48
+attacker,predator,47
+goal,purpose,95
+purchase,steal,96
+input,signal,97
+Estonian_monetary_unit,monetary_unit,98
+Estonian_monetary_unit,sent,98
+abundance,plenty,98
+round_shape,sphere,98
+drop,sphere,98
+round_shape,shape,98
+flow,influx,46
+message,publicity,99
+flow,natural_process,46
+beginning,birth,45
+beginning,point,45
+facial_expression,smile,45
+party,sociable,44
+leaf,plant_organ,42
+communication,exam,41
+barrier,obstruction,102
+obstruction,structure,102
+barrier,movable_barrier,102
+door,movable_barrier,102
+minutes,written_record,39
+information,propaganda,39
+difference,quality,38
+shelter,structure,38
+haven,shelter,38
+dressing,sauce,37
+goal,intention,36
+person,suspect,105
+stage,time_period,105
+goal,intent,36
+coat,overgarment,107
+garment,overgarment,107
+allotment,grant,35
+gay,person,111
+military_vehicle,tank,112
+military_vehicle,vehicle,112
+award,grant,35
+allotment,distribution,35
+distress,pain,34
+feeling,pain,34
+promise,speech_act,114
+cause,factor,114
+factor,fundamental,114
+commitment,message,114
+commitment,promise,114
+order,state,33
+perfect,tense,115
+grammatical_category,tense,115
+class,grammatical_category,115
+order,peace,33
+athletic_game,outdoor_game,116
+field_game,outdoor_game,116
+field_game,hockey,116
+atmospheric_phenomenon,storm,117
+decision_making,pick,117
+area,refuge,33
+due_process,group_action,120
+hearing,proceeding,120
+due_process,proceeding,120
+building_complex,plant,33
+attention,basic_cognitive_process,121
+disharmony,dissonance,31
+dissonance,sound_property,31
+bite,wound,30
+band,social_group,122
+message,story,122
+athletic_contest,contest,123
+athletic_contest,meet,123
+boy,male,29
+sparkling_wine,wine,125
+champagne,sparkling_wine,125
+controlled_substance,drug,125
+gamma_hydroxybutyrate,max,125
+club_drug,controlled_substance,125
+club_drug,gamma_hydroxybutyrate,125
+environment,surroundings,126
+hurting,symptom,126
+bodily_process,breath,127
+fuck,sexual_intercourse,127
+fucking,sexual_intercourse,127
+sexual_activity,sexual_intercourse,127
+macromolecule,protein,128
+body_waste,urine,129
+effect,phenomenon,28
+blow,impact,130
+bash,blow,130
+gather,sewing,131
+acquiring,capture,131
+injustice,unrighteousness,131
+injustice,wrong,131
+crew,unit,28
+season,summer,27
+material,mineral,27
+concentrate,ore,27
+mineral,ore,27
+fine,penalty,135
+payment,penalty,135
+line,shape,135
+curve,turn,135
+curve,line,135
+disturbance,motion,26
+plastic,solid,136
+disturbance,havoc,26
+feeling,gratitude,25
+bending,change_of_shape,24
+bending,flexion,24
+flex,flexion,24
+team,unit,138
+happening,incident,139
+encounter,fight,139
+barrage,language,140
+change,change_of_shape,24
+grounds,information,143
+rational_motive,reason,143
+motivation,rational_motive,143
+perry,philosopher,144
+intellectual,scholar,144
+philosopher,scholar,144
+intellectual,person,144
+breakfast,meal,144
+fact,specific,23
+motion,sitting,23
+glow,good_health,145
+good_health,physical_condition,145
+decoration,hanging,146
+device,lighter,146
+lighter,match,146
+commodity,product,147
+breast,external_body_part,148
+baby,newborn,148
+forum,meeting,21
+article,nonfiction,21
+prose,writing_style,21
+scratch,wound,148
+nonfiction,prose,21
+asking,speech_act,148
+secretion,sweat,149
+bodily_process,sex,151
+mustard,rape,151
+peter,saint,152
+Apostle,peter,152
+disciple,follower,152
+Apostle,disciple,152
+isolation,loneliness,153
+isolation,separation,153
+elasticity,physical_property,154
+bounce,elasticity,154
+episode,happening,156
+actor's_line,aside,156
+actor's_line,line,156
+athlete,basketball_player,156
+athlete,contestant,156
+basketball_player,forward,156
+point,topographic_point,157
+holy,topographic_point,157
+maxim,saying,158
+mutant,organism,159
+freak,mutant,159
+addiction,physical_condition,160
+alcoholism,drug_addiction,160
+addiction,drug_addiction,160
+garage,outbuilding,20
+lunchtime,mealtime,19
+natural_process,phase_change,160
+freezing,phase_change,160
+cycle,time_interval,160
+acknowledgment,message,17
+gift,giveaway,161
+diversion,gaming,162
+cleaning,improvement,163
+enjoyment,pleasure,164
+case,patient,165
+case,person,165
+achiever,great,165
+brave,warrior,166
+person,warrior,166
+band,strip,167
+band,elastic,167
+throat,tubular_cavity,168
+cavity,structure,168
+cavity,tubular_cavity,168
+condition,guilt,168
+personal_property,property,168
+effects,personal_property,168
+ego,pride,170
+dinner,party,171
+dinner,feast,171
+acknowledgment,thanks,17
+airplane,jet,16
+juvenile,kid,14
+activity,deeds,14
+facial_expression,gape,174
+editing,writing,174
+editing,revising,174
+home_appliance,white_goods,175
+electric_refrigerator,freezer,175
+appliance,durables,175
+electric_refrigerator,refrigerator,175
+appliance,home_appliance,175
+refrigerator,white_goods,175
+consumer_goods,durables,175
+commodity,consumer_goods,175
+la,metallic_element,176
+cognition,cognitive_factor,178
+cognitive_factor,difficulty,178
+difficulty,hinderance,178
+family,unit,178
+memory,representation,179
+accident,coincidence,179
+accident,happening,179
+devotion,love,180
+aerosol,cloud,182
+aerosol,smoke,182
+iron,metallic_element,184
+morality,righteousness,184
+justice,righteousness,184
+light,moonlight,185
+male,male_child,186
+male_child,schoolboy,186
+blog,diary,187
+flow,overflow,13
+flow,motion,13
+farm,workplace,11
+innocent,person,10
+empathy,sympathy,188
+crowd,gathering,189
+awareness,sense,191
+derby,hat,10
+hour,mealtime,19
+jewel,jewelry,8
+diamond,jewel,8
+occupation,trade,195
+handicraft,weaving,195
+handicraft,trade,195
+cognitive_state,consciousness,196
+consciousness,waking,196
+course,path,197
+action,course,197
+attitude,mindset,198
+feeling,mood,198
+experience,happening,199
+experience,ordeal,199
+knitting,needlework,201
+plot,scheme,8
+battering,fight,202
+defeated,people,203
+art,graphic_art,203
+graphic_art,painting,203
+manner_of_speaking,prosody,203
+prosody,stress,203
+expressive_style,manner_of_speaking,203
+childcare,daycare,204
+childcare,service,204
+aid,service,204
+clock,timepiece,205
+minute,time_unit,205
+structural_member,support,206
+sill,structural_member,206
+doorstep,sill,206
+plan_of_action,scheme,8
+grits,hot_cereal,209
+breakfast_food,cereal,209
+breakfast_food,food,209
+cereal,hot_cereal,209
+examination,scan,209
+feeling,gravity,210
+earnestness,gravity,210
+chuckle,laugh,210
+fare,food,211
+diet,fare,211
+baseball_equipment,sports_equipment,212
+baseball_equipment,mound,212
+installment,payment,212
+movie,show,212
+movie,product,212
+circumstances,condition,213
+body_covering,skin,215
+physical_phenomenon,pressure,216
+pinniped_mammal,walrus,217
+aquatic_mammal,placental,217
+aquatic_mammal,pinniped_mammal,217
+offer,special,217
+message,offer,217
+apartment,housing,218
+housing,structure,218
+land,wetland,219
+bog,mire,219
+bog,wetland,219
+plot,tract,219
+garden,plot,219
+actress,waters,7
+difficulty,pinch,221
+shy,throw,222
+game,table_game,224
+billiards,table_game,224
+fiber_bundle,nervous_tissue,224
+cranial_nerve,facial,224
+fiber_bundle,nerve,224
+cranial_nerve,nerve,224
+animal_tissue,nervous_tissue,224
+drama,dramatic_composition,224
+card_game,whist,225
+hearts,whist,225
+pressure_unit,unit_of_measurement,226
+atm,pressure_unit,226
+knowing,understanding,226
+actor,actress,7
+idiot,simpleton,227
+mercantile_establishment,shop,227
+mercantile_establishment,place_of_business,227
+pace,rate,228
+anxiety,emotion,229
+anxiety,disquiet,229
+weather,wind,231
+limit,range,232
+extremity,limit,232
+earshot,range,232
+accomplishment,liberation,233
+airfield,airport,233
+airfield,facility,233
+printer,skilled_worker,235
+driver,operator,235
+causal_agent,operator,235
+group_action,return,236
+retaliation,return,236
+inhumanity,quality,238
+ceremony,wedding,239
+affair,ceremony,239
+communicator,person,240
+communicator,writer,240
+broadcasting,tv,240
+alien,traveler,5
+beverage,coffee,4
+appearance,representation,242
+apparition,ghost,242
+apparition,illusion,242
+appearance,illusion,242
+boyfriend,lover,2
+cry,utterance,243
+cry,scream,243
+effort,exercising,245
+grandmother,grandparent,246
+body_part,shoulder,248
+collection,content,248
+status,terms,248
+envy,jealousy,250
+fortune,misfortune,251
+adversity,misfortune,251
+adversity,disaster,251
+appraisal,review,1
+ad,promotion,253
+message,promotion,253
+credentials,document,253
+helm,steering_system,253
+mechanism,steering_system,253
+attacker,stoner,254
+set,teeth,255
+certainty,cognitive_state,255
+certainty,confidence,255
+draw,gully,256
+gully,valley,256
+natural_depression,valley,256
+external_body_part,neck,257
+king,sovereign,257
+ruler,sovereign,257
+person,ruler,257
+place_of_worship,temple,258
+building,place_of_worship,258
+adventure,undertaking,258
+belief,supernaturalism,258
+magic,supernaturalism,258
+amazon,woman,259
+function,trigonometric_function,259
+function,mathematical_relation,259
+mathematical_relation,relation,259
+cos,trigonometric_function,259
+hired_hand,laborer,260
+cowboy,ranch_hand,260
+employee,workman,260
+hired_hand,ranch_hand,260
+laborer,workman,260
+employee,worker,260
+accusation,blame,261
+bone,tooth,261
+bone,connective_tissue,261
+pearly,tooth,261
+celestial_body,planet,262
+planet,terrestrial_planet,262
+earth,terrestrial_planet,262
+jar,vessel,263
+activity,performing,263
+discontent,longing,265
+chromatic_color,green,265
+commercial_enterprise,packaging,266
+entry,written_record,266
+condition,orderliness,268
+kilter,orderliness,268
+consumption,sucking,269
+fecal_matter,shit,273
+body_waste,fecal_matter,273
+career,occupation,5
+bed,berth,274
+berth,lower,274
+act,legal_document,274
+heartbeat,periodic_event,276
+happening,periodic_event,276
+collection,heap,276
+animal_skin,fell,277
+line,rank,278
+electronic_communication,email,279
+electronic_communication,transmission,279
+communication,transmission,279
+humanistic_discipline,philosophy,279
+aesthetics,philosophy,279
+dirge,keen,280
+dirge,song,280
+radical,terrorist,281
+person,radical,281
+hose,tube,284
+airline,hose,284
+conduit,tube,284
+passage,way,284
+conduit,passage,284
+orifice,passage,299
+haul,pull,273
+defense,excuse,285
+defense,justification,285
+relationship,state,286
+friendship,relationship,286
+complex,whole,288
+concept,whole,288
+complex,syndrome,288
+explanation,justification,285
+assignment,school_assignment,288
+assignment,undertaking,288
+small_indefinite_quantity,tad,288
+activity,supporting,289
+label,tag,290
+marker,symbol,290
+label,marker,290
+miss,woman,291
+endowment,hang,292
+endowment,natural_ability,292
+aptitude,natural_ability,292
+discussion,talks,293
+lady,woman,294
+attempt,pains,295
+outbuilding,shed,296
+archipelago,japan,297
+archipelago,land,297
+comment,statement,298
+area,enclosure,299
+cage,enclosure,299
+passage,structure,299
+orifice,rima,299
+mouth,rima,299
+homework,school_assignment,288
