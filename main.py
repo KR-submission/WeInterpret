@@ -96,8 +96,24 @@ st.markdown(
       .muted {{
         opacity: 0.75;
       }}
+      /* Force readable text colour everywhere */
+        .stApp, .stApp * {
+        color: #1f1f1f;
+        }
+
+        /* Keep muted helper, but don’t wash out important text */
+        .weinterpret-subtitle, .muted {
+        color: rgba(31,31,31,0.82) !important;
+        opacity: 1 !important;   /* remove compounded opacity */
+        }
+
+        /* Make cards solid for consistent contrast */
+        div[data-testid="stVerticalBlockBorderWrapper"] {
+        background: #f7f4ee;   /* or plain white */
+        }
     </style>
     """,
+    
     unsafe_allow_html=True,
 )
 
