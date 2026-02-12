@@ -28,7 +28,6 @@ st.markdown(
       header[data-testid="stHeader"] {{
         display: none;
       }}
-      /* Reduce top padding that normally compensates for header */
       .block-container {{
         padding-top: 0.8rem;
       }}
@@ -41,12 +40,67 @@ st.markdown(
         background-color: {BG};
       }}
 
+      /* Force readable text colour everywhere */
+      .stApp, .stApp * {{
+        color: #111111 !important;
+      }}
+
       /* Title in Times New Roman + larger */
       h1 {{
         font-family: "Times New Roman", Times, serif !important;
         font-size: 56px !important;
         font-weight: 650 !important;
         margin-bottom: 0.4rem !important;
+      }}
+
+      /* Make all inputs white (cloud themes often override these) */
+      /* Text inputs / number inputs */
+      div[data-baseweb="input"] > div {{
+        background-color: #ffffff !important;
+        border-radius: 10px !important;
+      }}
+      div[data-baseweb="input"] input {{
+        color: #111111 !important;
+      }}
+
+      /* Text area */
+      div[data-baseweb="textarea"] > div {{
+        background-color: #ffffff !important;
+        border-radius: 10px !important;
+      }}
+      div[data-baseweb="textarea"] textarea {{
+        color: #111111 !important;
+      }}
+
+      /* Select / multiselect control */
+      div[data-baseweb="select"] > div {{
+        background-color: #ffffff !important;
+        border-radius: 10px !important;
+      }}
+      div[data-baseweb="select"] * {{
+        color: #111111 !important;
+      }}
+
+      /* Multiselect chips */
+      span[data-baseweb="tag"] {{
+        background-color: #f2f2f2 !important;
+        color: #111111 !important;
+        border: 1px solid rgba(0,0,0,0.15) !important;
+      }}
+
+      /* Checkbox / radio labels */
+      label, label * {{
+        color: #111111 !important;
+      }}
+
+      /* Slider track container background (keep light) */
+      div[data-testid="stSlider"] * {{
+        color: #111111 !important;
+      }}
+
+      /* Expander / captions */
+      .stCaption {{
+        color: rgba(0,0,0,0.70) !important;
       }}
     </style>
     """,
@@ -61,11 +115,6 @@ st.write(DESC)
 # Data -> filtered Newick
 # -----------------------------
 def expand_interpretations(df: pd.DataFrame) -> pd.DataFrame:
-    """
-    Split Interpretation by ":" and explode rows.
-    Example:
-      "day: yesterday" -> "day" and "yesterday"
-    """
     rows = []
     for _, r in df.iterrows():
         interp_raw = str(r["Interpretation"])
@@ -96,11 +145,6 @@ def escape_newick_label(label: str) -> str:
 
 
 def df_to_newick(df_expanded: pd.DataFrame, model_name: str) -> str:
-    """
-    Hierarchy:
-      model -> Cluster_Category -> Interpretation -> Dimension_Index
-    Branch lengths fixed to 1.0.
-    """
     tree = defaultdict(lambda: defaultdict(set))  # tree[cluster][interp] -> set(dim)
 
     for _, r in df_expanded.iterrows():
@@ -129,7 +173,7 @@ def df_to_newick(df_expanded: pd.DataFrame, model_name: str) -> str:
 
 
 # -----------------------------
-# Load data (fixed CSV, no upload)
+# Load data (fixed CSV)
 # -----------------------------
 CSV_PATH = Path("data/clustered_interpretations_mapping_all-MiniLM-L6-v2_emotion.csv")
 if not CSV_PATH.exists():
@@ -151,8 +195,6 @@ left, right = st.columns([1, 2], gap="large")
 
 with left:
     st.subheader("Filters")
-
-    # Placeholder description under Filters
     st.caption("PLACEHOLDER: short description of the filters goes here. (You will update this.)")
 
     clusters_sel = st.multiselect(
@@ -161,7 +203,6 @@ with left:
         default=all_clusters[: min(5, len(all_clusters))],
     )
 
-    # Readability caps
     max_interpretations = st.number_input(
         "Max interpretations per cluster (0 = no cap)",
         min_value=0,
@@ -178,17 +219,15 @@ with left:
         step=1,
     )
 
-    # Label controls
     show_cluster_labels = st.checkbox("Show cluster labels", value=True)
     show_interpretation_labels = st.checkbox("Show interpretation labels", value=False)
 
-# Apply filters (dimensions always shown)
+# Apply filters
 df_f = df.copy()
 
 if clusters_sel:
     df_f = df_f[df_f["Cluster_Category"].isin(clusters_sel)]
 
-# Cap interpretations per cluster by frequency
 if max_interpretations and max_interpretations > 0:
     keep_parts = []
     for cluster, g in df_f.groupby("Cluster_Category"):
@@ -196,7 +235,6 @@ if max_interpretations and max_interpretations > 0:
         keep_parts.append(g[g["Interpretation"].isin(top_interps)])
     df_f = pd.concat(keep_parts, ignore_index=True) if keep_parts else df_f.iloc[0:0]
 
-# Cap dimensions per interpretation by frequency
 if max_dims_per_interp and max_dims_per_interp > 0:
     keep_parts = []
     for (cluster, interp), g in df_f.groupby(["Cluster_Category", "Interpretation"]):
@@ -208,9 +246,7 @@ if df_f.empty:
     st.warning("No rows after filtering.")
     st.stop()
 
-# Root label fixed
-model_name_fixed = "WeInterpret"
-newick = df_to_newick(df_f, model_name=model_name_fixed)
+newick = df_to_newick(df_f, model_name="WeInterpret")
 
 with right:
     newick_js = json.dumps(newick)
@@ -218,13 +254,14 @@ with right:
     show_interp_js = "true" if show_interpretation_labels else "false"
 
     html = """
-<div style="font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;">
-  <div id="legend" style="font-size:12px; margin: 6px 0 10px 0;"></div>
+<div style="font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif; color:#111;">
+  <div id="legend" style="font-size:12px; margin: 6px 0 10px 0; color:#111;"></div>
   <div id="mount" style="position:relative;">
     <div id="tooltip" style="
       position:absolute; display:none; pointer-events:none;
-      background: rgba(255,255,255,0.95);
-      border: 1px solid rgba(0,0,0,0.15);
+      background: rgba(255,255,255,0.98);
+      color: #111;
+      border: 1px solid rgba(0,0,0,0.18);
       border-radius: 8px;
       padding: 8px 10px;
       font-size: 12px;
@@ -347,6 +384,7 @@ with right:
       swatch.style.display = "inline-block";
 
       const label = document.createElement("span");
+      label.style.color = "#111";
       label.textContent = String(c || "").replaceAll("_", " ");
 
       row.appendChild(swatch);
@@ -393,6 +431,7 @@ with right:
       .data(labelNodes)
       .join("text")
         .attr("dy", "0.31em")
+        .attr("fill", "#111")
         .attr("transform", d => `
           rotate(${d.x * 180 / Math.PI - 90})
           translate(${d.radius + 6},0)
