@@ -1,0 +1,1059 @@
+Interpretation,Dimension_Index,Cluster_Category
+day: yesterday,87,temporal and life periods
+day: yesterday,172,temporal and life periods
+day: yesterday,199,temporal and life periods
+day: yesterday,322,temporal and life periods
+achiever: great,12,cognitive processes and human experiences
+achiever: great,31,cognitive processes and human experiences
+achiever: great,87,cognitive processes and human experiences
+achiever: great,297,cognitive processes and human experiences
+custom: wont,81,semantic roles and properties
+custom: wont,243,semantic roles and properties
+custom: wont,370,semantic roles and properties
+alcoholic: drunkard,94,Mental and social health conditions
+alcoholic: drunkard,263,Mental and social health conditions
+alcoholic: drunkard,380,Mental and social health conditions
+consumer: drinker,94,Mental and social health conditions
+consumer: drinker,263,Mental and social health conditions
+consumer: drinker,380,Mental and social health conditions
+hypothermia: physical_condition,100,temperature variations and sensations
+hypothermia: physical_condition,208,temperature variations and sensations
+hypothermia: physical_condition,211,temperature variations and sensations
+alcoholism: drug_addiction,72,Mental and social health conditions
+alcoholism: drug_addiction,94,Mental and social health conditions
+alcoholism: drug_addiction,380,Mental and social health conditions
+addiction: drug_addiction,72,Mental and social health conditions
+addiction: drug_addiction,94,Mental and social health conditions
+addiction: drug_addiction,380,Mental and social health conditions
+addiction: physical_condition,72,Mental and social health conditions
+addiction: physical_condition,94,Mental and social health conditions
+addiction: physical_condition,380,Mental and social health conditions
+degree: state,69,temperature variations and sensations
+degree: state,146,temperature variations and sensations
+degree: state,347,temperature variations and sensations
+degree: extent,69,temperature variations and sensations
+degree: extent,146,temperature variations and sensations
+degree: extent,347,temperature variations and sensations
+diplomat: official,143,occupational social roles hierarchy
+diplomat: official,177,occupational social roles hierarchy
+diplomat: official,325,occupational social roles hierarchy
+ambassador: diplomat,143,occupational social roles hierarchy
+ambassador: diplomat,177,occupational social roles hierarchy
+ambassador: diplomat,325,occupational social roles hierarchy
+epidural: regional_anesthesia,279,regional anesthesia and physical condition
+epidural: regional_anesthesia,326,regional anesthesia and physical condition
+epidural: regional_anesthesia,330,regional anesthesia and physical condition
+anesthesia: regional_anesthesia,279,regional anesthesia and physical condition
+anesthesia: regional_anesthesia,326,regional anesthesia and physical condition
+anesthesia: regional_anesthesia,330,regional anesthesia and physical condition
+anesthesia: physical_condition,279,regional anesthesia and physical condition
+anesthesia: physical_condition,326,regional anesthesia and physical condition
+anesthesia: physical_condition,330,regional anesthesia and physical condition
+defense: justification,144,cognitive processes and human experiences
+defense: justification,188,cognitive processes and human experiences
+defense: justification,259,cognitive processes and human experiences
+explanation: justification,144,cognitive processes and human experiences
+explanation: justification,188,cognitive processes and human experiences
+explanation: justification,259,cognitive processes and human experiences
+defense: excuse,144,cognitive processes and human experiences
+defense: excuse,188,cognitive processes and human experiences
+defense: excuse,259,cognitive processes and human experiences
+basic_cognitive_process: remembering,145,cognitive processes and human experiences
+basic_cognitive_process: remembering,214,cognitive processes and human experiences
+basic_cognitive_process: remembering,215,cognitive processes and human experiences
+natural_object: world,148,biological taxonomy and anatomy
+natural_object: world,269,biological taxonomy and anatomy
+natural_object: world,371,biological taxonomy and anatomy
+banjo: stringed_instrument,84,Instruments and equipment
+banjo: stringed_instrument,272,Instruments and equipment
+banjo: stringed_instrument,345,Instruments and equipment
+guidebook: handbook,37,informational reference materials compilations
+guidebook: handbook,71,informational reference materials compilations
+guidebook: handbook,295,informational reference materials compilations
+fair: show,6,cognitive processes and human experiences
+fair: show,26,cognitive processes and human experiences
+fair: show,317,cognitive processes and human experiences
+book: reference_book,37,informational reference materials compilations
+book: reference_book,71,informational reference materials compilations
+book: reference_book,295,informational reference materials compilations
+handbook: reference_book,37,informational reference materials compilations
+handbook: reference_book,71,informational reference materials compilations
+handbook: reference_book,295,informational reference materials compilations
+briar: rose,24,biological taxonomy and anatomy
+briar: rose,27,biological taxonomy and anatomy
+briar: rose,138,biological taxonomy and anatomy
+bird: passerine,19,biological taxonomy and anatomy
+bird: passerine,173,biological taxonomy and anatomy
+bird: passerine,352,biological taxonomy and anatomy
+robin: thrush,19,biological taxonomy and anatomy
+robin: thrush,173,biological taxonomy and anatomy
+robin: thrush,352,biological taxonomy and anatomy
+oscine: thrush,19,biological taxonomy and anatomy
+oscine: thrush,173,biological taxonomy and anatomy
+oscine: thrush,352,biological taxonomy and anatomy
+oscine: passerine,19,biological taxonomy and anatomy
+oscine: passerine,173,biological taxonomy and anatomy
+oscine: passerine,352,biological taxonomy and anatomy
+employee: workman,223,occupational social roles hierarchy
+employee: workman,321,occupational social roles hierarchy
+employee: workman,353,occupational social roles hierarchy
+employee: worker,223,occupational social roles hierarchy
+employee: worker,321,occupational social roles hierarchy
+employee: worker,353,occupational social roles hierarchy
+hired_hand: ranch_hand,223,occupational social roles hierarchy
+hired_hand: ranch_hand,321,occupational social roles hierarchy
+hired_hand: ranch_hand,353,occupational social roles hierarchy
+drinker: drunkard,94,Mental and social health conditions
+drinker: drunkard,263,Mental and social health conditions
+drinker: drunkard,380,Mental and social health conditions
+hired_hand: laborer,223,occupational social roles hierarchy
+hired_hand: laborer,321,occupational social roles hierarchy
+hired_hand: laborer,353,occupational social roles hierarchy
+cowboy: ranch_hand,223,occupational social roles hierarchy
+cowboy: ranch_hand,321,occupational social roles hierarchy
+cowboy: ranch_hand,353,occupational social roles hierarchy
+laborer: workman,223,occupational social roles hierarchy
+laborer: workman,321,occupational social roles hierarchy
+laborer: workman,353,occupational social roles hierarchy
+linear_unit: miler,227,Measurement and flow of liquids
+linear_unit: miler,377,Measurement and flow of liquids
+judgement: legal_document,245,Instruments and equipment
+judgement: legal_document,265,Instruments and equipment
+beam: light,246,transportation travel motion path
+beam: light,272,transportation travel motion path
+beam: moonbeam,246,transportation travel motion path
+beam: moonbeam,272,transportation travel motion path
+side: surface,251,Spatial and symbolic descriptors
+side: surface,261,Spatial and symbolic descriptors
+large_integer: thirty,220,quantities and measurements scales
+large_integer: thirty,349,quantities and measurements scales
+consciousness: waking,209,cognitive processes and human experiences
+consciousness: waking,313,cognitive processes and human experiences
+cognitive_state: consciousness,209,cognitive processes and human experiences
+cognitive_state: consciousness,313,cognitive processes and human experiences
+change_of_state: cooking,16,Processes of Natural Transformation
+change_of_state: cooking,373,Processes of Natural Transformation
+cross: structure,207,Spatial and symbolic descriptors
+cross: structure,271,Spatial and symbolic descriptors
+feedback: natural_process,17,Processes of Natural Transformation
+feedback: natural_process,299,Processes of Natural Transformation
+act: stay,198,cognitive processes and human experiences
+act: stay,268,cognitive processes and human experiences
+species: taxonomic_group,193,biological taxonomy and anatomy
+species: taxonomic_group,375,biological taxonomy and anatomy
+boundary: surface,251,Spatial and symbolic descriptors
+boundary: surface,261,Spatial and symbolic descriptors
+bottom: heel,251,cognitive processes and human experiences
+bottom: heel,261,cognitive processes and human experiences
+bed: berth,8,living spaces and their components
+bed: berth,379,living spaces and their components
+berth: lower,8,living spaces and their components
+berth: lower,379,living spaces and their components
+biological_group: group,193,biological taxonomy and anatomy
+biological_group: group,375,biological taxonomy and anatomy
+biological_group: taxonomic_group,193,biological taxonomy and anatomy
+biological_group: taxonomic_group,375,biological taxonomy and anatomy
+doomed: people,192,occupational social roles hierarchy
+doomed: people,234,occupational social roles hierarchy
+fool: simpleton,191,cognitive processes and human experiences
+fool: simpleton,305,cognitive processes and human experiences
+coach: trainer,20,occupational social roles hierarchy
+coach: trainer,358,occupational social roles hierarchy
+leader: trainer,20,occupational social roles hierarchy
+leader: trainer,358,occupational social roles hierarchy
+cypriniform_fish: topminnow,189,biological taxonomy and anatomy
+cypriniform_fish: topminnow,247,biological taxonomy and anatomy
+molly: topminnow,189,biological taxonomy and anatomy
+molly: topminnow,247,biological taxonomy and anatomy
+bony_fish: fish,189,biological taxonomy and anatomy
+bony_fish: fish,247,biological taxonomy and anatomy
+cypriniform_fish: soft-finned_fish,189,biological taxonomy and anatomy
+cypriniform_fish: soft-finned_fish,247,biological taxonomy and anatomy
+bony_fish: teleost_fish,189,biological taxonomy and anatomy
+bony_fish: teleost_fish,247,biological taxonomy and anatomy
+soft-finned_fish: teleost_fish,189,biological taxonomy and anatomy
+soft-finned_fish: teleost_fish,247,biological taxonomy and anatomy
+bottom: side,251,cognitive processes and human experiences
+bottom: side,261,cognitive processes and human experiences
+contact: touch,24,textile clothing health and state
+contact: touch,53,textile clothing health and state
+present: tonight,186,temporal and life periods
+present: tonight,267,temporal and life periods
+approval: encouragement,185,cognitive processes and human experiences
+approval: encouragement,206,cognitive processes and human experiences
+course: education,28,occupational social roles hierarchy
+course: education,96,occupational social roles hierarchy
+material: plant_material,180,biological taxonomy and anatomy
+material: plant_material,382,biological taxonomy and anatomy
+plant_material: wood,180,biological taxonomy and anatomy
+plant_material: wood,382,biological taxonomy and anatomy
+act: production,29,cognitive processes and human experiences
+act: production,149,cognitive processes and human experiences
+making: production,29,cognitive processes and human experiences
+making: production,149,cognitive processes and human experiences
+meaning: message,30,cognitive processes and human experiences
+meaning: message,66,cognitive processes and human experiences
+spruce: wood,180,biological taxonomy and anatomy
+spruce: wood,382,biological taxonomy and anatomy
+archipelago: land,179,geographical landforms and areas
+archipelago: land,291,geographical landforms and areas
+dentine: ivory,32,biological taxonomy and anatomy
+dentine: ivory,235,biological taxonomy and anatomy
+animal_material: dentine,32,biological taxonomy and anatomy
+animal_material: dentine,235,biological taxonomy and anatomy
+archipelago: japan,179,geographical landforms and areas
+archipelago: japan,291,geographical landforms and areas
+conversation: nothings,171,cognitive processes and human experiences
+conversation: nothings,312,cognitive processes and human experiences
+material: mineral,170,Materials Elements Substances Colors
+material: mineral,230,Materials Elements Substances Colors
+liquid: water,34,Measurement and flow of liquids
+liquid: water,130,Measurement and flow of liquids
+garage: outbuilding,35,living spaces and their components
+garage: outbuilding,136,living spaces and their components
+mineral: ore,170,Materials Elements Substances Colors
+mineral: ore,230,Materials Elements Substances Colors
+concentrate: ore,170,Materials Elements Substances Colors
+concentrate: ore,230,Materials Elements Substances Colors
+doctrine: philosophical_doctrine,167,cognitive processes and human experiences
+doctrine: philosophical_doctrine,174,cognitive processes and human experiences
+aesthetic: philosophical_doctrine,167,cognitive processes and human experiences
+aesthetic: philosophical_doctrine,174,cognitive processes and human experiences
+hillside: slope,7,geographical landforms and areas
+hillside: slope,219,geographical landforms and areas
+activity: try,7,cognitive processes and human experiences
+activity: try,35,cognitive processes and human experiences
+labor: manual_labor,257,occupational social roles hierarchy
+labor: manual_labor,260,occupational social roles hierarchy
+angiospermous_tree: tree,38,biological taxonomy and anatomy
+angiospermous_tree: tree,294,biological taxonomy and anatomy
+citrus: fruit_tree,38,biological taxonomy and anatomy
+citrus: fruit_tree,294,biological taxonomy and anatomy
+angiospermous_tree: fruit_tree,38,biological taxonomy and anatomy
+angiospermous_tree: fruit_tree,294,biological taxonomy and anatomy
+citrus: mandarin,38,biological taxonomy and anatomy
+citrus: mandarin,294,biological taxonomy and anatomy
+simpleton: stupid,38,cognitive processes and human experiences
+simpleton: stupid,124,cognitive processes and human experiences
+horizontal_surface: platform,39,Spatial and symbolic descriptors
+horizontal_surface: platform,341,Spatial and symbolic descriptors
+belief: doctrine,167,cognitive processes and human experiences
+belief: doctrine,174,cognitive processes and human experiences
+holder: landowner,167,semantic roles and properties
+holder: landowner,194,semantic roles and properties
+handling: manual_labor,257,occupational social roles hierarchy
+handling: manual_labor,260,occupational social roles hierarchy
+mail: message,40,cognitive processes and human experiences
+mail: message,90,cognitive processes and human experiences
+express: mail,40,cognitive processes and human experiences
+express: mail,90,cognitive processes and human experiences
+holder: owner,167,semantic roles and properties
+holder: owner,194,semantic roles and properties
+owner: person,167,semantic roles and properties
+owner: person,194,semantic roles and properties
+juvenile: kid,43,Mental and social health conditions
+juvenile: kid,126,Mental and social health conditions
+head: leader,163,occupational social roles hierarchy
+head: leader,382,occupational social roles hierarchy
+academic_administrator: administrator,163,occupational social roles hierarchy
+academic_administrator: administrator,382,occupational social roles hierarchy
+childhood: time_of_life,44,temporal and life periods
+childhood: time_of_life,145,temporal and life periods
+academic_administrator: dean,163,occupational social roles hierarchy
+academic_administrator: dean,382,occupational social roles hierarchy
+administrator: head,163,occupational social roles hierarchy
+administrator: head,382,occupational social roles hierarchy
+excavation: pool,46,geographical landforms and areas
+excavation: pool,191,geographical landforms and areas
+activity: supporting,162,cognitive processes and human experiences
+activity: supporting,188,cognitive processes and human experiences
+action: taking,161,cognitive processes and human experiences
+action: taking,180,cognitive processes and human experiences
+banker: cashier,157,financial wealth and assets
+banker: cashier,270,financial wealth and assets
+banker: financier,157,financial wealth and assets
+banker: financier,270,financial wealth and assets
+drinking_vessel: vessel,50,Measurement and flow of liquids
+drinking_vessel: vessel,283,Measurement and flow of liquids
+drinking_vessel: stoup,50,Measurement and flow of liquids
+drinking_vessel: stoup,283,Measurement and flow of liquids
+manner: property,51,communication and vocal expression
+manner: property,339,communication and vocal expression
+capitalist: financier,157,financial wealth and assets
+capitalist: financier,270,financial wealth and assets
+capitalist: person,157,financial wealth and assets
+capitalist: person,270,financial wealth and assets
+airfield: facility,150,transportation travel motion path
+airfield: facility,298,transportation travel motion path
+airfield: airport,150,transportation travel motion path
+airfield: airport,298,transportation travel motion path
+band: social_group,264,occupational social roles hierarchy
+band: social_group,272,occupational social roles hierarchy
+direction: path,147,transportation travel motion path
+direction: path,210,transportation travel motion path
+line: path,147,transportation travel motion path
+line: path,210,transportation travel motion path
+set: teeth,5,biological taxonomy and anatomy
+set: teeth,152,biological taxonomy and anatomy
+iron: metallic_element,4,Materials Elements Substances Colors
+iron: metallic_element,50,Materials Elements Substances Colors
+physical_phenomenon: pressure,272,transportation travel motion path
+physical_phenomenon: pressure,345,transportation travel motion path
+sound: tap,273,communication and vocal expression
+sound: tap,281,communication and vocal expression
+official: skilled_worker,143,occupational social roles hierarchy
+official: skilled_worker,325,occupational social roles hierarchy
+clock: timepiece,56,temporal and life periods
+clock: timepiece,363,temporal and life periods
+pause: wait,57,communication and vocal expression
+pause: wait,140,communication and vocal expression
+act: inactivity,57,cognitive processes and human experiences
+act: inactivity,168,cognitive processes and human experiences
+inactivity: waiting,57,cognitive processes and human experiences
+inactivity: waiting,168,cognitive processes and human experiences
+disappointment: dissatisfaction,57,cognitive processes and human experiences
+disappointment: dissatisfaction,309,cognitive processes and human experiences
+disappointment: frustration,57,cognitive processes and human experiences
+disappointment: frustration,309,cognitive processes and human experiences
+discontentment: dissatisfaction,57,cognitive processes and human experiences
+discontentment: dissatisfaction,309,cognitive processes and human experiences
+discontentment: longing,57,cognitive processes and human experiences
+discontentment: longing,309,cognitive processes and human experiences
+animal: giant,58,biological taxonomy and anatomy
+animal: giant,160,biological taxonomy and anatomy
+cleaning: improvement,286,textile clothing health and state
+cleaning: improvement,328,textile clothing health and state
+alien: traveler,292,transportation travel motion path
+alien: traveler,368,transportation travel motion path
+blow: punch,141,cognitive processes and human experiences
+blow: punch,239,cognitive processes and human experiences
+party: social,62,occupational social roles hierarchy
+party: social,378,occupational social roles hierarchy
+attribute: space,136,living spaces and their components
+attribute: space,301,living spaces and their components
+girl: woman,135,human relationships and family connections
+girl: woman,373,human relationships and family connections
+facial_hair: hair,64,biological taxonomy and anatomy
+facial_hair: hair,244,biological taxonomy and anatomy
+facial_hair: whiskers,64,biological taxonomy and anatomy
+facial_hair: whiskers,244,biological taxonomy and anatomy
+progesterone: progestin,134,steroid hormones
+progesterone: progestin,198,steroid hormones
+progestin: steroid_hormone,134,steroid hormones
+progestin: steroid_hormone,198,steroid hormones
+fortune: good_fortune,131,financial wealth and assets
+fortune: good_fortune,162,financial wealth and assets
+health: wellbeing,131,financial wealth and assets
+health: wellbeing,162,financial wealth and assets
+good_fortune: prosperity,131,financial wealth and assets
+good_fortune: prosperity,162,financial wealth and assets
+questioning: request,64,cognitive processes and human experiences
+questioning: request,206,cognitive processes and human experiences
+cognitive_factor: difficulty,65,cognitive processes and human experiences
+cognitive_factor: difficulty,244,cognitive processes and human experiences
+difficulty: hinderance,65,cognitive processes and human experiences
+difficulty: hinderance,244,cognitive processes and human experiences
+cognition: cognitive_factor,65,cognitive processes and human experiences
+cognition: cognitive_factor,244,cognitive processes and human experiences
+engagement: military_action,65,occupational social roles hierarchy
+engagement: military_action,119,occupational social roles hierarchy
+prosperity: wellbeing,131,financial wealth and assets
+prosperity: wellbeing,162,financial wealth and assets
+offer: speech_act,131,communication and vocal expression
+offer: speech_act,230,communication and vocal expression
+sill: structural_member,130,media and food items
+sill: structural_member,379,media and food items
+doorstep: sill,130,media and food items
+doorstep: sill,379,media and food items
+marker: symbol,124,Spatial and symbolic descriptors
+marker: symbol,237,Spatial and symbolic descriptors
+drop: tear,3,communication and vocal expression
+drop: tear,23,communication and vocal expression
+drop: small_indefinite_quantity,3,quantities and measurements scales
+drop: small_indefinite_quantity,23,quantities and measurements scales
+economy: system,69,financial wealth and assets
+economy: system,204,financial wealth and assets
+group: system,69,occupational social roles hierarchy
+group: system,204,occupational social roles hierarchy
+county: region,70,geographical landforms and areas
+county: region,335,geographical landforms and areas
+label: tag,124,Spatial and symbolic descriptors
+label: tag,237,Spatial and symbolic descriptors
+label: marker,124,Spatial and symbolic descriptors
+label: marker,237,Spatial and symbolic descriptors
+flow: overflow,123,Measurement and flow of liquids
+flow: overflow,129,Measurement and flow of liquids
+flow: motion,123,transportation travel motion path
+flow: motion,129,transportation travel motion path
+handicraft: weaving,120,textile clothing health and state
+handicraft: weaving,176,textile clothing health and state
+forum: meeting,2,occupational social roles hierarchy
+forum: meeting,277,occupational social roles hierarchy
+coldness: cool,2,temperature variations and sensations
+coldness: cool,63,temperature variations and sensations
+coldness: temperature,2,temperature variations and sensations
+coldness: temperature,63,temperature variations and sensations
+land: wetland,73,biological taxonomy and anatomy
+land: wetland,155,biological taxonomy and anatomy
+bog: wetland,73,biological taxonomy and anatomy
+bog: wetland,155,biological taxonomy and anatomy
+bog: mire,73,biological taxonomy and anatomy
+bog: mire,155,biological taxonomy and anatomy
+occupation: trade,120,occupational social roles hierarchy
+occupation: trade,176,occupational social roles hierarchy
+handicraft: trade,120,textile clothing health and state
+handicraft: trade,176,textile clothing health and state
+distress: pain,114,cognitive processes and human experiences
+distress: pain,129,cognitive processes and human experiences
+feeling: pain,114,cognitive processes and human experiences
+feeling: pain,129,cognitive processes and human experiences
+condition: innocence,112,textile clothing health and state
+condition: innocence,216,textile clothing health and state
+clear: innocence,112,textile clothing health and state
+clear: innocence,216,textile clothing health and state
+fixture: plumbing_fixture,112,Measurement and flow of liquids
+fixture: plumbing_fixture,303,Measurement and flow of liquids
+artifact: fixture,112,structural elements and concealment
+artifact: fixture,303,structural elements and concealment
+plumbing_fixture: shower,112,Measurement and flow of liquids
+plumbing_fixture: shower,303,Measurement and flow of liquids
+asthma: respiratory_disease,108,respiratory disease symptoms processes
+asthma: respiratory_disease,355,respiratory disease symptoms processes
+magazine: press,106,media and food items
+magazine: press,242,media and food items
+creation: original,105,cognitive processes and human experiences
+creation: original,204,cognitive processes and human experiences
+ceremony: presentation,105,human relationships and family connections
+ceremony: presentation,278,human relationships and family connections
+activity: ceremony,105,human relationships and family connections
+activity: ceremony,278,human relationships and family connections
+information: skinny,103,biological taxonomy and anatomy
+information: skinny,121,biological taxonomy and anatomy
+fundamental_quantity: temperature,2,temperature variations and sensations
+fundamental_quantity: temperature,63,temperature variations and sensations
+charge: cost,78,payment or fee obligations
+charge: cost,127,payment or fee obligations
+fee: fixed_charge,78,payment or fee obligations
+fee: fixed_charge,127,payment or fee obligations
+fee: tuition,78,payment or fee obligations
+fee: tuition,127,payment or fee obligations
+charge: fixed_charge,78,payment or fee obligations
+charge: fixed_charge,127,payment or fee obligations
+change_of_integrity: combination,99,Processes of Natural Transformation
+change_of_integrity: combination,281,Processes of Natural Transformation
+combination: consolidation,99,occupational social roles hierarchy
+combination: consolidation,281,occupational social roles hierarchy
+amalgamation: consolidation,99,occupational social roles hierarchy
+amalgamation: consolidation,281,occupational social roles hierarchy
+atm: pressure_unit,337,Measurement and flow of liquids
+atm: pressure_unit,362,Measurement and flow of liquids
+pressure_unit: unit_of_measurement,337,Measurement and flow of liquids
+pressure_unit: unit_of_measurement,362,Measurement and flow of liquids
+inflammation: symptom,81,respiratory disease symptoms processes
+inflammation: symptom,101,respiratory disease symptoms processes
+achievement: action,345,cognitive processes and human experiences
+achievement: action,364,cognitive processes and human experiences
+physical_property: temperature,2,temperature variations and sensations
+physical_property: temperature,63,temperature variations and sensations
+concern: matter,89,cognitive processes and human experiences
+concern: matter,252,cognitive processes and human experiences
+coldness: vasoconstrictor,2,temperature variations and sensations
+coldness: vasoconstrictor,63,temperature variations and sensations
+choice: vote,85,cognitive processes and human experiences
+choice: vote,213,cognitive processes and human experiences
+anticipation: hope,85,cognitive processes and human experiences
+anticipation: hope,187,cognitive processes and human experiences
+landlord: landowner,167,semantic roles and properties
+landlord: landowner,194,semantic roles and properties
+singing: vocal_music,84,communication and vocal expression
+karaoke: singing,84,communication and vocal expression
+activity: music,84,cognitive processes and human experiences
+crazy: lunatic,85,Mental and social health conditions
+lunatic: sick_person,85,Mental and social health conditions
+music: vocal_music,84,communication and vocal expression
+airbus: airliner,83,transportation travel motion path
+glad: iridaceous_plant,86,biological taxonomy and anatomy
+bash: blow,86,cognitive processes and human experiences
+blow: impact,86,cognitive processes and human experiences
+derivative_instrument: option,86,Instruments and equipment
+derivative_instrument: legal_document,86,Instruments and equipment
+airliner: airplane,83,transportation travel motion path
+latest: news,87,media and food items
+baseball_equipment: sports_equipment,88,Instruments and equipment
+baseball_equipment: mound,88,Instruments and equipment
+hour: time_unit,88,temporal and life periods
+awareness: feel,82,cognitive processes and human experiences
+bout: part,91,cognitive processes and human experiences
+building: farm_building,92,geographical landforms and areas
+farm_building: stable,92,geographical landforms and areas
+group_action: return,93,occupational social roles hierarchy
+retaliation: return,93,cognitive processes and human experiences
+conformity: keeping,93,occupational social roles hierarchy
+cooperation: group_action,93,occupational social roles hierarchy
+conformity: cooperation,93,occupational social roles hierarchy
+distrust: doubt,82,cognitive processes and human experiences
+drink: helping,80,Mental and social health conditions
+force: troops,80,occupational social roles hierarchy
+aid: lift,94,occupational social roles hierarchy
+leaf: plant_organ,95,biological taxonomy and anatomy
+attitude: mindset,97,cognitive processes and human experiences
+growing: organic_process,98,Processes of Natural Transformation
+gardening: landscaping,80,geographical landforms and areas
+activity: deeds,79,cognitive processes and human experiences
+bodily_process: breath,78,respiratory disease symptoms processes
+fabric: metallic,77,Materials Elements Substances Colors
+sanitariness: sanitary_condition,101,textile clothing health and state
+condition: sanitary_condition,101,textile clothing health and state
+hygiene: sanitariness,101,textile clothing health and state
+party: sociable,102,occupational social roles hierarchy
+crime: felony,103,Mental and social health conditions
+felony: larceny,103,Mental and social health conditions
+larceny: petty,103,Mental and social health conditions
+extent: limit,77,quantities and measurements scales
+better: good,104,cognitive processes and human experiences
+good: quality,104,cognitive processes and human experiences
+herb: simple,76,biological taxonomy and anatomy
+leaf: sheet,76,biological taxonomy and anatomy
+leaf: page,76,biological taxonomy and anatomy
+paper: sheet,76,biological taxonomy and anatomy
+aviator: pilot,107,occupational social roles hierarchy
+aviator: skilled_worker,107,occupational social roles hierarchy
+movement: wave,76,transportation travel motion path
+shorts: trouser,109,textile clothing health and state
+garment: trouser,109,textile clothing health and state
+skate: sports_equipment,110,Instruments and equipment
+melancholy: sadness,111,cognitive processes and human experiences
+anxiety: psychological_state,111,Mental and social health conditions
+tsunami: wave,76,transportation travel motion path
+pinniped_mammal: walrus,75,biological taxonomy and anatomy
+aquatic_mammal: pinniped_mammal,75,biological taxonomy and anatomy
+aquatic_mammal: placental,75,biological taxonomy and anatomy
+body: college,75,biological taxonomy and anatomy
+draft: negotiable_instrument,113,Instruments and equipment
+legal_document: negotiable_instrument,113,Instruments and equipment
+check: draft,113,occupational social roles hierarchy
+disregard: omission,74,cognitive processes and human experiences
+basic_cognitive_process: inattention,74,cognitive processes and human experiences
+motion: sitting,115,transportation travel motion path
+acquiring: capture,115,financial wealth and assets
+cover: covering,116,textile clothing health and state
+dressing: sauce,117,media and food items
+mention: remark,117,cognitive processes and human experiences
+denial: speech_act,118,communication and vocal expression
+denial: negative,118,cognitive processes and human experiences
+dish: nutriment,118,media and food items
+dish: snack_food,118,media and food items
+sandwich: snack_food,118,media and food items
+farm: workplace,119,geographical landforms and areas
+disregard: inattention,74,cognitive processes and human experiences
+exception: omission,74,cognitive processes and human experiences
+Asian: Indian,72,Materials Elements Substances Colors
+duty: work,120,occupational social roles hierarchy
+duty: function,120,occupational social roles hierarchy
+function: stead,120,occupational social roles hierarchy
+behalf: stead,120,occupational social roles hierarchy
+fall: season,122,temporal and life periods
+foreigner: traveler,123,transportation travel motion path
+Asian: person_of_color,72,Materials Elements Substances Colors
+Indian: bohemian,72,Materials Elements Substances Colors
+desire: wish,123,cognitive processes and human experiences
+idiot: simpleton,124,cognitive processes and human experiences
+person: person_of_color,72,Materials Elements Substances Colors
+geographical_area: north,70,geographical landforms and areas
+place: point,68,Spatial and symbolic descriptors
+kin: social_group,125,occupational social roles hierarchy
+folks: kin,125,occupational social roles hierarchy
+folk: people,125,occupational social roles hierarchy
+large_indefinite_quantity: lots,127,quantities and measurements scales
+indefinite_quantity: large_indefinite_quantity,127,quantities and measurements scales
+cavity: tubular_cavity,127,biological taxonomy and anatomy
+throat: tubular_cavity,127,biological taxonomy and anatomy
+cavity: structure,127,biological taxonomy and anatomy
+unit_of_measurement: volume_unit,129,Measurement and flow of liquids
+liquid_unit: volume_unit,129,Measurement and flow of liquids
+United_States_liquid_unit: gallon,129,Measurement and flow of liquids
+United_States_liquid_unit: liquid_unit,129,Measurement and flow of liquids
+arrangement: ordering,67,sequential organization patterns
+ordering: series,67,sequential organization patterns
+boyfriend: lover,66,human relationships and family connections
+battering: fight,66,cognitive processes and human experiences
+fucking: sexual_intercourse,64,human relationships and family connections
+function: mathematical_relation,64,human relationships and family connections
+function: trigonometric_function,64,trigonometric functions
+morality: righteousness,132,cognitive processes and human experiences
+justice: righteousness,132,cognitive processes and human experiences
+shorebird: wading_bird,133,biological taxonomy and anatomy
+sandpiper: shorebird,133,biological taxonomy and anatomy
+aquatic_bird: wading_bird,133,biological taxonomy and anatomy
+dream: imagination,133,cognitive processes and human experiences
+imagination: representational_process,133,cognitive processes and human experiences
+basic_cognitive_process: representational_process,133,cognitive processes and human experiences
+mathematical_relation: relation,64,human relationships and family connections
+cos: trigonometric_function,64,trigonometric functions
+mommy: mother,134,human relationships and family connections
+actor's_line: aside,63,Spatial and symbolic descriptors
+buy: purchase,135,financial wealth and assets
+higher_cognitive_process: search,136,cognitive processes and human experiences
+quest: search,136,cognitive processes and human experiences
+actor's_line: line,63,Spatial and symbolic descriptors
+dark: illumination,137,transportation travel motion path
+delivery: transportation,139,transportation travel motion path
+motion: vibration,141,transportation travel motion path
+ginger: herb,141,biological taxonomy and anatomy
+lost: people,61,occupational social roles hierarchy
+artwork: drawing,142,textile clothing health and state
+morning: time_period,60,temporal and life periods
+day: evening,59,temporal and life periods
+person: radical,56,Mental and social health conditions
+radical: terrorist,56,Mental and social health conditions
+relationship: state,55,human relationships and family connections
+friendship: relationship,55,human relationships and family connections
+act: departure,145,cognitive processes and human experiences
+departure: disappearance,145,transportation travel motion path
+field_game: hockey,55,Instruments and equipment
+impression: intuition,145,cognitive processes and human experiences
+heart: intuition,145,cognitive processes and human experiences
+athletic_game: outdoor_game,55,Instruments and equipment
+field_game: outdoor_game,55,Instruments and equipment
+animal_skin: hide,148,biological taxonomy and anatomy
+comment: statement,54,cognitive processes and human experiences
+math: science,53,cognitive processes and human experiences
+discipline: science,53,cognitive processes and human experiences
+pale: strip,150,geographical landforms and areas
+building_material: lumber,150,biological taxonomy and anatomy
+lumber: strip,150,geographical landforms and areas
+rib: support,151,occupational social roles hierarchy
+editing: revising,152,cognitive processes and human experiences
+editing: writing,152,cognitive processes and human experiences
+electronic_equipment: telephone,153,Instruments and equipment
+building: house,154,living spaces and their components
+affair: ceremony,156,human relationships and family connections
+ceremony: wedding,156,human relationships and family connections
+adipose_tissue: animal_tissue,52,biological taxonomy and anatomy
+adipose_tissue: cellulite,52,biological taxonomy and anatomy
+hell: region,49,geographical landforms and areas
+creating_by_removal: creation,48,Processes of Natural Transformation
+choice: willing,157,cognitive processes and human experiences
+joke: wit,158,cognitive processes and human experiences
+message: wit,158,cognitive processes and human experiences
+safe: strongbox,159,living spaces and their components
+box: strongbox,159,living spaces and their components
+boring: creating_by_removal,48,Processes of Natural Transformation
+dramatic_composition: script,47,communication and vocal expression
+paranoid: psychotic,45,Mental and social health conditions
+psychotic: sick_person,45,Mental and social health conditions
+attire: clothing,43,textile clothing health and state
+attire: costume,43,textile clothing health and state
+bear: carnivore,164,biological taxonomy and anatomy
+condition: danger,165,textile clothing health and state
+decline: decrease,166,Processes of Natural Transformation
+decrease: process,166,Processes of Natural Transformation
+message: publicity,166,cognitive processes and human experiences
+block: cube,166,living spaces and their components
+artifact: block,166,structural elements and concealment
+cube: die,166,living spaces and their components
+pain: smart,42,cognitive processes and human experiences
+nap: time_period,41,temporal and life periods
+somesthesia: temperature,39,temperature variations and sensations
+perception: somesthesia,39,cognitive processes and human experiences
+challenge: speech_act,167,communication and vocal expression
+challenge: dare,167,cognitive processes and human experiences
+temperature: warmth,39,temperature variations and sensations
+ministry: priesthood,36,occupational social roles hierarchy
+occupational_group: profession,36,occupational social roles hierarchy
+connection: junction,168,human relationships and family connections
+joint: junction,168,human relationships and family connections
+connection: instrumentality,168,Instruments and equipment
+dovetail: mortise_joint,168,human relationships and family connections
+joint: mortise_joint,168,human relationships and family connections
+grasping: hold,168,textile clothing health and state
+anseriform_bird: goose,168,biological taxonomy and anatomy
+anseriform_bird: waterfowl,168,biological taxonomy and anatomy
+aquatic_bird: waterfowl,168,biological taxonomy and anatomy
+day: tomorrow,169,temporal and life periods
+priesthood: profession,36,occupational social roles hierarchy
+body: occupational_group,36,occupational social roles hierarchy
+binary_compound: compound,34,Materials Elements Substances Colors
+concentration: focus,170,cognitive processes and human experiences
+binary_compound: water,34,Materials Elements Substances Colors
+decision_making: pick,172,cognitive processes and human experiences
+cast: gathering,173,occupational social roles hierarchy
+extremity: limit,175,textile clothing health and state
+earshot: range,175,quantities and measurements scales
+limit: range,175,quantities and measurements scales
+jest: wit,177,cognitive processes and human experiences
+address: code,177,living spaces and their components
+coding_system: writing,177,living spaces and their components
+code: coding_system,177,living spaces and their components
+peer: person,178,occupational social roles hierarchy
+associate: peer,178,occupational social roles hierarchy
+barrage: language,33,Measurement and flow of liquids
+classic: creation,31,cognitive processes and human experiences
+sewing: stitch,179,textile clothing health and state
+body_of_water: main,30,Measurement and flow of liquids
+association: league,29,occupational social roles hierarchy
+association: organization,29,occupational social roles hierarchy
+housing: structure,181,living spaces and their components
+apartment: housing,181,living spaces and their components
+perception: sensation,182,cognitive processes and human experiences
+sensation: taste,182,cognitive processes and human experiences
+frequency: rate,183,measurement of occurrence
+room: toilet,184,living spaces and their components
+knitting: needlework,25,textile clothing health and state
+indicator: reference_point,185,Spatial and symbolic descriptors
+indicator: signal,185,Spatial and symbolic descriptors
+reference_point: target,185,Spatial and symbolic descriptors
+contact: touching,24,textile clothing health and state
+expressive_style: manner_of_speaking,186,communication and vocal expression
+manner_of_speaking: prosody,186,communication and vocal expression
+prosody: stress,186,communication and vocal expression
+lover: steady,187,human relationships and family connections
+star: sun,187,transportation travel motion path
+accident: coincidence,188,cognitive processes and human experiences
+accident: happening,188,cognitive processes and human experiences
+classification: duality,189,biological taxonomy and anatomy
+flash: happening,22,cognitive processes and human experiences
+passage: structure,21,human relationships and family connections
+orifice: rima,21,biological taxonomy and anatomy
+orifice: passage,21,human relationships and family connections
+mouth: rima,21,biological taxonomy and anatomy
+body_waste: urine,21,biological taxonomy and anatomy
+promise: speech_act,190,communication and vocal expression
+commitment: message,190,cognitive processes and human experiences
+commitment: promise,190,cognitive processes and human experiences
+happening: success,191,cognitive processes and human experiences
+duty: social_control,20,occupational social roles hierarchy
+guardianship: hands,20,occupational social roles hierarchy
+duty: guardianship,20,occupational social roles hierarchy
+extremity: hand,20,textile clothing health and state
+motivation: rational_motive,18,cognitive processes and human experiences
+flow: natural_process,193,Processes of Natural Transformation
+flow: influx,193,Measurement and flow of liquids
+disorder: sleep_disorder,195,Mental and social health conditions
+insomnia: sleep_disorder,195,Mental and social health conditions
+communication: exam,195,communication and vocal expression
+broadcasting: tv,195,media and food items
+ending: outcome,196,cognitive processes and human experiences
+site: tract,196,human relationships and family connections
+rough: site,196,cognitive processes and human experiences
+powerlessness: quality,197,cognitive processes and human experiences
+helplessness: powerlessness,197,cognitive processes and human experiences
+planning: preparation,197,occupational social roles hierarchy
+activity: preparation,197,cognitive processes and human experiences
+rational_motive: reason,18,cognitive processes and human experiences
+gut: internal_organ,199,biological taxonomy and anatomy
+activity: behavior,200,cognitive processes and human experiences
+shy: throw,201,cognitive processes and human experiences
+fact: specific,201,cognitive processes and human experiences
+body_part: shoulder,202,biological taxonomy and anatomy
+exhilaration: thrill,202,cognitive processes and human experiences
+exhilaration: joy,202,cognitive processes and human experiences
+contestant: loser,203,cognitive processes and human experiences
+daylight: time_period,205,temporal and life periods
+elevator: lifting_device,205,Instruments and equipment
+device: lifting_device,205,Instruments and equipment
+database: information,206,informational reference materials compilations
+database: list,206,informational reference materials compilations
+journey: ride,16,transportation travel motion path
+connection: linkage,15,human relationships and family connections
+link: linkage,15,human relationships and family connections
+course: path,209,transportation travel motion path
+action: course,209,cognitive processes and human experiences
+flare: shape,210,Spatial and symbolic descriptors
+fever: symptom,211,respiratory disease symptoms processes
+local: public_transport,211,transportation travel motion path
+conveyance: public_transport,211,transportation travel motion path
+gully: valley,212,geographical landforms and areas
+draw: gully,212,geographical landforms and areas
+natural_depression: valley,212,geographical landforms and areas
+pig: swine,214,biological taxonomy and anatomy
+even-toed_ungulate: swine,214,biological taxonomy and anatomy
+even-toed_ungulate: ungulate,214,biological taxonomy and anatomy
+placental: ungulate,214,biological taxonomy and anatomy
+bar: room,215,living spaces and their components
+diversion: fun,216,cognitive processes and human experiences
+organ: tongue,217,biological taxonomy and anatomy
+aid: resource,218,occupational social roles hierarchy
+asset: resource,218,financial wealth and assets
+natural_object: universe,218,biological taxonomy and anatomy
+blow: kick,219,cognitive processes and human experiences
+attempt: best,14,cognitive processes and human experiences
+disorderliness: mess,221,Mental and social health conditions
+condition: disorderliness,221,Mental and social health conditions
+report: yarn,222,textile clothing health and state
+cloth_covering: covering,222,textile clothing health and state
+bedclothes: cloth_covering,222,textile clothing health and state
+bedclothes: blanket,222,textile clothing health and state
+installment: payment,223,financial wealth and assets
+certainty: confidence,14,cognitive processes and human experiences
+certainty: cognitive_state,14,cognitive processes and human experiences
+followers: multitude,13,occupational social roles hierarchy
+spiciness: tang,11,semantic roles and properties
+spiciness: taste_property,11,semantic roles and properties
+lyric: text,384,communication and vocal expression
+South_African_monetary_unit: monetary_unit,225,financial wealth and assets
+South_African_monetary_unit: rand,225,financial wealth and assets
+clothes: clothing,225,textile clothing health and state
+echo: reflection,226,communication and vocal expression
+physical_property: reflection,226,semantic roles and properties
+spoke: support,226,occupational social roles hierarchy
+cry: scream,10,communication and vocal expression
+attacker: stoner,227,cognitive processes and human experiences
+breakfast_food: cereal,228,media and food items
+breakfast_food: food,228,media and food items
+grits: hot_cereal,228,media and food items
+cereal: hot_cereal,228,media and food items
+accomplishment: smooth,228,cognitive processes and human experiences
+facial_expression: smiling,229,biological taxonomy and anatomy
+intellectual: person,230,cognitive processes and human experiences
+philosopher: scholar,230,cognitive processes and human experiences
+perry: philosopher,230,cognitive processes and human experiences
+intellectual: scholar,230,cognitive processes and human experiences
+lifetime: time_period,231,temporal and life periods
+life: time_period,232,temporal and life periods
+days: life,232,temporal and life periods
+time_of_life: years,232,temporal and life periods
+advantage: lead,233,financial wealth and assets
+advantage: asset,233,financial wealth and assets
+financial_institution: institution,234,financial wealth and assets
+charity: foundation,234,occupational social roles hierarchy
+financial_institution: foundation,234,financial wealth and assets
+hesitation: indecision,234,cognitive processes and human experiences
+doubt: indecision,234,cognitive processes and human experiences
+body_waste: fecal_matter,235,biological taxonomy and anatomy
+fecal_matter: shit,235,biological taxonomy and anatomy
+grounds: information,236,transportation travel motion path
+garden: plot,236,geographical landforms and areas
+plot: tract,236,human relationships and family connections
+direction: position,237,Spatial and symbolic descriptors
+direction: orientation,237,Spatial and symbolic descriptors
+horizontal: orientation,237,Spatial and symbolic descriptors
+contest: race,237,cognitive processes and human experiences
+readiness: ready,238,occupational social roles hierarchy
+readiness: state,238,occupational social roles hierarchy
+street: thoroughfare,239,transportation travel motion path
+alley: street,239,transportation travel motion path
+road: thoroughfare,239,transportation travel motion path
+chromatic_color: red,240,Materials Elements Substances Colors
+macromolecule: protein,241,biological taxonomy and anatomy
+factor: fundamental,241,cognitive processes and human experiences
+cause: factor,241,cognitive processes and human experiences
+cry: utterance,10,communication and vocal expression
+person: religious_person,9,cognitive processes and human experiences
+religious: religious_person,9,cognitive processes and human experiences
+pain: suffering,246,cognitive processes and human experiences
+distribution: sharing,246,occupational social roles hierarchy
+giving: sharing,246,occupational social roles hierarchy
+arms: instrumentality,247,Instruments and equipment
+line: route,248,transportation travel motion path
+encounter: fight,248,cognitive processes and human experiences
+communicator: person,249,communication and vocal expression
+communicator: writer,249,communication and vocal expression
+propulsion: shot,249,transportation travel motion path
+male: male_child,250,human relationships and family connections
+male_child: schoolboy,250,human relationships and family connections
+election: primary,251,cognitive processes and human experiences
+greatness: importance,251,financial wealth and assets
+king: sovereign,251,occupational social roles hierarchy
+ruler: sovereign,251,occupational social roles hierarchy
+person: ruler,251,occupational social roles hierarchy
+advocate: person,9,semantic roles and properties
+belief: faith,9,cognitive processes and human experiences
+faith: theological_virtue,9,cognitive processes and human experiences
+marathon: undertaking,7,cognitive processes and human experiences
+nakedness: raw,252,textile clothing health and state
+condition: nakedness,252,textile clothing health and state
+demeanor: trait,253,communication and vocal expression
+demeanor: manner,253,communication and vocal expression
+informality: manner,253,communication and vocal expression
+condition: situation,253,textile clothing health and state
+shoes: situation,253,textile clothing health and state
+cat: feline,254,biological taxonomy and anatomy
+carnivore: feline,254,biological taxonomy and anatomy
+desk: table,255,biological taxonomy and anatomy
+furniture: table,255,biological taxonomy and anatomy
+chemical_element: si,256,Materials Elements Substances Colors
+device: musical_instrument,5,Instruments and equipment
+musical_instrument: stringed_instrument,5,Instruments and equipment
+entreaty: wooing,258,cognitive processes and human experiences
+entreaty: request,258,cognitive processes and human experiences
+equal: person,260,occupational social roles hierarchy
+activity: effort,262,cognitive processes and human experiences
+effects: personal_property,264,semantic roles and properties
+personal_property: property,264,semantic roles and properties
+guitar: stringed_instrument,5,Instruments and equipment
+representation: stereotype,265,cognitive processes and human experiences
+organism: somebody,266,biological taxonomy and anatomy
+crystal: solid,266,Materials Elements Substances Colors
+crystal: ice,266,Materials Elements Substances Colors
+causal_agent: somebody,266,semantic roles and properties
+present: today,267,temporal and life periods
+content: thought,269,cognitive processes and human experiences
+organization: polity,269,occupational social roles hierarchy
+government: polity,269,occupational social roles hierarchy
+consumption: suck,271,Mental and social health conditions
+achromatic_color: color,3,Materials Elements Substances Colors
+achromatic_color: black,3,Materials Elements Substances Colors
+country: political_unit,274,occupational social roles hierarchy
+political_unit: unit,274,occupational social roles hierarchy
+infirmity: unfitness,275,cognitive processes and human experiences
+ill_health: unfitness,275,Mental and social health conditions
+infirmity: wasting,275,cognitive processes and human experiences
+mom: mother,276,human relationships and family connections
+contempt: dislike,278,cognitive processes and human experiences
+circle: ellipse,3,Spatial and symbolic descriptors
+conic_section: plane_figure,3,Spatial and symbolic descriptors
+conic_section: ellipse,3,Spatial and symbolic descriptors
+heavier-than-air_craft: plane,279,transportation travel motion path
+bore: unpleasant_person,280,Mental and social health conditions
+unpleasant_person: unwelcome_person,280,Mental and social health conditions
+geological_process: natural_process,281,Processes of Natural Transformation
+geological_process: wearing,281,Processes of Natural Transformation
+flu: respiratory_disease,282,respiratory disease symptoms processes
+disease: respiratory_disease,282,respiratory disease symptoms processes
+area: space,283,geographical landforms and areas
+flies: space,283,transportation travel motion path
+colors: flag,284,Materials Elements Substances Colors
+colours: emblem,284,Materials Elements Substances Colors
+line: rank,285,Spatial and symbolic descriptors
+feeling: gratitude,285,cognitive processes and human experiences
+activity: job,1,occupational social roles hierarchy
+athlete: basketball_player,287,Instruments and equipment
+basketball_player: forward,287,Instruments and equipment
+athlete: contestant,287,cognitive processes and human experiences
+material_resource: riches,288,financial wealth and assets
+dissonance: sound_property,289,semantic roles and properties
+disharmony: dissonance,289,semantic roles and properties
+blog: diary,290,media and food items
+figure: plane_figure,3,Spatial and symbolic descriptors
+collection: heap,293,informational reference materials compilations
+initial: letter,294,occupational social roles hierarchy
+desperate: unfortunate,294,cognitive processes and human experiences
+starting: turn,294,occupational social roles hierarchy
+activity: turn,294,cognitive processes and human experiences
+looking: sensing,296,cognitive processes and human experiences
+disposition: unwillingness,298,cognitive processes and human experiences
+reluctance: unwillingness,298,cognitive processes and human experiences
+reluctance: sloth,298,cognitive processes and human experiences
+exclamation: utterance,300,communication and vocal expression
+dickens: exclamation,300,communication and vocal expression
+message: tale,301,cognitive processes and human experiences
+medium_of_exchange: tender,302,financial wealth and assets
+jar: vessel,303,Measurement and flow of liquids
+sin: unrighteousness,303,cognitive processes and human experiences
+protective_covering: shield,304,textile clothing health and state
+apple: edible_fruit,306,biological taxonomy and anatomy
+falsehood: statement,307,cognitive processes and human experiences
+falsehood: lie,307,cognitive processes and human experiences
+decade: time_period,308,temporal and life periods
+decade: eighties,308,temporal and life periods
+coming: motion,310,transportation travel motion path
+diet: fare,311,media and food items
+fare: food,311,media and food items
+consequence: wake,313,cognitive processes and human experiences
+scratch: wound,314,biological taxonomy and anatomy
+flight: nonstop,315,transportation travel motion path
+flight: trip,315,transportation travel motion path
+newspaper: press,316,media and food items
+daily: newspaper,316,media and food items
+implementation: means,318,occupational social roles hierarchy
+act: implementation,318,cognitive processes and human experiences
+animal_skin: fell,319,biological taxonomy and anatomy
+lunchtime: mealtime,321,temporal and life periods
+hour: mealtime,321,temporal and life periods
+time_period: year,322,temporal and life periods
+extremity: finger,322,textile clothing health and state
+plan_of_action: policy,323,occupational social roles hierarchy
+marital_status: marriage,324,human relationships and family connections
+legal_status: marital_status,324,human relationships and family connections
+legal_status: status,324,human relationships and family connections
+paved_surface: pavement,327,Spatial and symbolic descriptors
+horizontal_surface: paved_surface,327,Spatial and symbolic descriptors
+fake: imitation,328,cognitive processes and human experiences
+copy: imitation,328,cognitive processes and human experiences
+copy: representation,328,cognitive processes and human experiences
+enlisted_person: soldier,329,occupational social roles hierarchy
+enlisted_person: serviceman,329,occupational social roles hierarchy
+fodder: soldier,329,occupational social roles hierarchy
+concept: whole,331,occupational social roles hierarchy
+complex: syndrome,331,occupational social roles hierarchy
+complex: whole,331,occupational social roles hierarchy
+happening: incident,331,cognitive processes and human experiences
+consideration: contemplation,332,cognitive processes and human experiences
+contemplation: meditation,332,cognitive processes and human experiences
+commercial_enterprise: packaging,333,financial wealth and assets
+placement: spacing,334,living spaces and their components
+distance: spacing,334,living spaces and their components
+purchase: steal,335,financial wealth and assets
+difficulty: fix,336,cognitive processes and human experiences
+athletic_game: court_game,361,Instruments and equipment
+act: equalization,365,occupational social roles hierarchy
+acknowledgment: message,338,cognitive processes and human experiences
+acknowledgment: thanks,338,cognitive processes and human experiences
+aching: pain,339,cognitive processes and human experiences
+organ: sense_organ,340,biological taxonomy and anatomy
+ear: sense_organ,340,biological taxonomy and anatomy
+fuck: sexual_intercourse,342,human relationships and family connections
+god: spiritual_being,342,cognitive processes and human experiences
+commodity: merchandise,343,financial wealth and assets
+merchandise: release,343,financial wealth and assets
+oblivion: obscurity,344,structural elements and concealment
+obscurity: standing,344,structural elements and concealment
+property: taste_property,11,semantic roles and properties
+figure: shape,3,Spatial and symbolic descriptors
+couple: pair,346,human relationships and family connections
+athletic_facility: gym,346,Instruments and equipment
+athletic_facility: facility,346,Instruments and equipment
+instrument: medical_instrument,347,Instruments and equipment
+medical_instrument: syringe,347,Instruments and equipment
+douche: syringe,347,Instruments and equipment
+aristocrat: leader,348,occupational social roles hierarchy
+aristocrat: male_aristocrat,348,occupational social roles hierarchy
+male_aristocrat: noble,348,occupational social roles hierarchy
+lesson: teaching,348,occupational social roles hierarchy
+juvenile: youth,349,Mental and social health conditions
+deterioration: wear,350,textile clothing health and state
+estrogen: steroid_hormone,351,steroid hormones
+natural_process: phase_change,351,Processes of Natural Transformation
+freezing: phase_change,351,temperature variations and sensations
+la: metallic_element,354,Materials Elements Substances Colors
+facial_expression: gape,356,biological taxonomy and anatomy
+despite: dislike,357,cognitive processes and human experiences
+effort: exercising,359,cognitive processes and human experiences
+degree: extreme,360,temperature variations and sensations
+appraisal: evaluation,360,cognitive processes and human experiences
+evaluation: mark,360,cognitive processes and human experiences
+badminton: court_game,361,Instruments and equipment
+male_offspring: son,1,human relationships and family connections
+experience: ordeal,363,cognitive processes and human experiences
+experience: happening,363,cognitive processes and human experiences
+affirmative: avowal,364,cognitive processes and human experiences
+assertion: avowal,364,cognitive processes and human experiences
+affirmative: yes,364,cognitive processes and human experiences
+custom: habit,364,semantic roles and properties
+balancing: equalization,365,occupational social roles hierarchy
+male: male_offspring,1,human relationships and family connections
+secretion: sweat,366,textile clothing health and state
+achiever: natural,366,cognitive processes and human experiences
+bulk: number,367,quantities and measurements scales
+physical_property: weight,367,semantic roles and properties
+fuel: substance,369,Materials Elements Substances Colors
+fuel: lighter,369,Materials Elements Substances Colors
+humanistic_discipline: philosophy,370,cognitive processes and human experiences
+aesthetics: philosophy,370,cognitive processes and human experiences
+leisure: vacation,371,temporal and life periods
+mustard: rape,372,media and food items
+derby: hat,373,living spaces and their components
+animal: male,373,human relationships and family connections
+family: unit,373,living spaces and their components
+broadcasting: radio,374,media and food items
+airplane: jet,376,transportation travel motion path
+isolation: separation,378,occupational social roles hierarchy
+isolation: loneliness,378,occupational social roles hierarchy
+service: work,380,occupational social roles hierarchy
+artifact: padding,381,structural elements and concealment
+degree: high,381,temperature variations and sensations
+lefty: person,382,Spatial and symbolic descriptors
+communicable_disease: disease,383,communication and vocal expression
+cold: communicable_disease,383,communication and vocal expression
+gathering: pair,346,occupational social roles hierarchy
