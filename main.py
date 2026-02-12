@@ -195,7 +195,7 @@ left, right = st.columns([1, 2], gap="large")
 
 with left:
     st.subheader("Filters")
-    st.caption("PLACEHOLDER: short description of the filters goes here. (You will update this.)")
+    st.caption("Word sense clusters are added manually to improve the visualisation and are not part of the WeInterpret output.")
 
     clusters_sel = st.multiselect(
         "Cluster_Category",
