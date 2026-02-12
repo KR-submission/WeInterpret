@@ -147,6 +147,42 @@ st.markdown(
       label[data-testid="stCheckbox"] span[role="checkbox"] svg {{
         fill: #111111 !important;
       }}
+
+      /* ===== NumberInput: kill the dark stepper panel (BaseWeb) ===== */
+      div[data-testid="stNumberInput"] div[data-baseweb="button-group"] {{
+        background: #ffffff !important;
+        border: 1px solid rgba(0,0,0,0.20) !important;
+        border-left: 0 !important;                 /* avoids double border next to input */
+      }}
+
+      div[data-testid="stNumberInput"] div[data-baseweb="button-group"] button {{
+        background: #ffffff !important;
+      }}
+
+      div[data-testid="stNumberInput"] div[data-baseweb="button-group"] button svg {{
+        fill: #111111 !important;
+      }}
+
+      /* (Some Streamlit versions use this wrapper instead) */
+      div[data-testid="stNumberInput"] div[data-baseweb="button-group"] > div {{
+        background: #ffffff !important;
+      }}
+
+
+      /* ===== Multiselect: make the clear (x) + dropdown icon not black ===== */
+      div[data-baseweb="select"] [aria-label="Clear value"] {{
+        background: #ffffff !important;
+        border: 1px solid rgba(0,0,0,0.20) !important;
+        border-radius: 999px !important;
+      }}
+
+      div[data-baseweb="select"] [aria-label="Clear value"] svg {{
+        fill: #111111 !important;
+      }}
+
+      div[data-baseweb="select"] svg {{
+        fill: #111111 !important;                  /* dropdown chevron, etc. */
+      }}
     </style>
     """,
     unsafe_allow_html=True,
