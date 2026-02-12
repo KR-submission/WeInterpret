@@ -542,7 +542,18 @@ with right:
         .attr("stroke-width", d => d.source.depth === 0 ? 1.8 : 1.0)
         .attr("opacity", 0.9)
         .attr("d", linkRadial);
-
+    // --- Nodes (small dots) ---
+    const nodesSel = g.append("g")
+      .selectAll("circle")
+      .data(root.descendants())
+      .join("circle")
+        .attr("transform", d => `
+          rotate(${d.x * 180 / Math.PI - 90})
+          translate(${d.radius},0)
+        `)
+        .attr("r", d => (d.depth === 0 ? 2.6 : 2.0))
+        .attr("fill", d => (d.depth === 0 ? "#111" : (d.color || "#666")))
+        .attr("opacity", 0.95);
     // Labels selection
     let labelNodes = root.leaves(); // always show dimensions
     if (SHOW_CLUSTER_LABELS) {
@@ -580,6 +591,13 @@ with right:
         .attr("stroke-width", l => {
           if (!ps) return (l.source.depth === 0 ? 1.8 : 1.0);
           return ps.has(l.target) ? 2.6 : 0.8;
+        });
+      
+      nodesSel
+        .attr("opacity", n => (ps ? (ps.has(n) ? 1.0 : 0.12) : 0.95))
+        .attr("r", n => {
+          if (!ps) return (n.depth === 0 ? 2.6 : 2.0);
+          return ps.has(n) ? (n.depth === 0 ? 3.0 : 2.6) : 1.6;
         });
 
       labelsSel
