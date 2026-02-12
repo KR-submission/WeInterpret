@@ -204,6 +204,29 @@ st.markdown(
       :root {{
         --background-color: #ffffff !important;
       }}
+
+      /* ===== Fix NumberInput +/- panel using Streamlit testids ===== */
+
+      /* Style the stepper buttons themselves */
+      button[data-testid="stNumberInputStepUp"],
+      button[data-testid="stNumberInputStepDown"] {{
+        background: #ffffff !important;
+        color: #111111 !important;                 /* drives svg via currentColor */
+        border: 1px solid rgba(0,0,0,0.20) !important;
+      }}
+
+      /* Ensure the svg inherits the right colour */
+      button[data-testid="stNumberInputStepUp"] svg,
+      button[data-testid="stNumberInputStepDown"] svg {{
+        fill: currentColor !important;
+        color: inherit !important;
+      }}
+
+      /* If there’s a dark wrapper around the buttons, hit their immediate parent */
+      button[data-testid="stNumberInputStepUp"]::before,
+      button[data-testid="stNumberInputStepDown"]::before {{
+        background: transparent !important;
+      }}
     </style>
     """,
     unsafe_allow_html=True,
