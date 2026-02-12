@@ -183,6 +183,27 @@ st.markdown(
       div[data-baseweb="select"] svg {{
         fill: #111111 !important;                  /* dropdown chevron, etc. */
       }}
+
+      /* ===== Nuclear option: BaseWeb button-groups (Streamlit steppers) ===== */
+      div[data-baseweb="button-group"],
+      div[data-baseweb="button-group"] > div,
+      div[data-baseweb="button-group"] button {{
+        background: #ffffff !important;
+      }}
+
+      div[data-baseweb="button-group"] {{
+        border: 1px solid rgba(0,0,0,0.20) !important;
+        border-radius: 10px !important;
+      }}
+
+      div[data-baseweb="button-group"] svg {{
+        fill: #111111 !important;
+      }}
+
+      /* If the dark colour is coming from a CSS variable */
+      :root {{
+        --background-color: #ffffff !important;
+      }}
     </style>
     """,
     unsafe_allow_html=True,
