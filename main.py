@@ -120,6 +120,33 @@ st.markdown(
       .stCaption {{
         color: rgba(0,0,0,0.70) !important;
       }}
+
+      /* ... keep all your existing CSS ... */
+
+      /* --- Fix number_input +/- stepper (dark block on the right) --- */
+      div[data-testid="stNumberInput"] button[kind="secondary"] {{
+        background: #ffffff !important;
+        border: 1px solid rgba(0,0,0,0.20) !important;
+      }}
+      div[data-testid="stNumberInput"] button[kind="secondary"] * {{
+        color: #111111 !important;
+        fill: #111111 !important;   /* for svg icons */
+      }}
+
+      /* Sometimes the stepper container itself is dark */
+      div[data-testid="stNumberInput"] div[data-baseweb="button-group"] {{
+        background: #ffffff !important;
+        border-radius: 10px !important;
+      }}
+
+      /* --- Fix unchecked checkbox square (often dark in some themes) --- */
+      label[data-testid="stCheckbox"] span[role="checkbox"] {{
+        background: #ffffff !important;
+        border: 1px solid rgba(0,0,0,0.35) !important;
+      }}
+      label[data-testid="stCheckbox"] span[role="checkbox"] svg {{
+        fill: #111111 !important;
+      }}
     </style>
     """,
     unsafe_allow_html=True,
