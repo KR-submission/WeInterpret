@@ -24,6 +24,13 @@ st.set_page_config(page_title="WeInterpret", page_icon="W", layout="wide")
 st.markdown(
     f"""
     <style>
+      /* Force Streamlit theme variables (fixes “random black” widget text) */
+      :root {{
+        --text-color: #111111;
+        --secondary-text-color: #111111;
+        --widget-label-color: #111111;
+      }}
+
       /* Remove Streamlit header band */
       header[data-testid="stHeader"] {{
         display: none;
@@ -88,13 +95,24 @@ st.markdown(
         border: 1px solid rgba(0,0,0,0.15) !important;
       }}
 
-      /* Checkbox / radio labels */
+      /* Checkbox / radio labels (checked + unchecked) */
       label, label * {{
         color: #111111 !important;
       }}
+      label[data-testid="stCheckbox"] span {{
+        color: #111111 !important;
+      }}
 
-      /* Slider track container background (keep light) */
+      /* Slider labels */
+      label[data-testid="stWidgetLabel"] {{
+        color: #111111 !important;
+      }}
       div[data-testid="stSlider"] * {{
+        color: #111111 !important;
+      }}
+
+      /* Plus/minus buttons */
+      button[kind="secondary"] {{
         color: #111111 !important;
       }}
 
@@ -103,33 +121,10 @@ st.markdown(
         color: rgba(0,0,0,0.70) !important;
       }}
     </style>
-
-    <style>
-    /* Force Streamlit theme text colours */
-    :root {
-      --text-color: #1f1f1f;
-      --secondary-text-color: #1f1f1f;
-      --widget-label-color: #1f1f1f;
-    }
-
-    /* Checkbox labels (checked + unchecked) */
-    label[data-testid="stCheckbox"] span {
-      color: #1f1f1f !important;
-    }
-
-    /* Slider labels */
-    label[data-testid="stWidgetLabel"] {
-      color: #1f1f1f !important;
-    }
-
-    /* Plus/minus buttons */
-    button[kind="secondary"] {
-      color: #1f1f1f !important;
-    }
-    </style>
     """,
     unsafe_allow_html=True,
 )
+
 
 st.title("WeInterpret")
 st.write(DESC)
