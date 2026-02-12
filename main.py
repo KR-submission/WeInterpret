@@ -103,6 +103,30 @@ st.markdown(
         color: rgba(0,0,0,0.70) !important;
       }}
     </style>
+
+    <style>
+    /* Force Streamlit theme text colours */
+    :root {
+      --text-color: #1f1f1f;
+      --secondary-text-color: #1f1f1f;
+      --widget-label-color: #1f1f1f;
+    }
+
+    /* Checkbox labels (checked + unchecked) */
+    label[data-testid="stCheckbox"] span {
+      color: #1f1f1f !important;
+    }
+
+    /* Slider labels */
+    label[data-testid="stWidgetLabel"] {
+      color: #1f1f1f !important;
+    }
+
+    /* Plus/minus buttons */
+    button[kind="secondary"] {
+      color: #1f1f1f !important;
+    }
+    </style>
     """,
     unsafe_allow_html=True,
 )
