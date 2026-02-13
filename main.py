@@ -84,34 +84,6 @@ st.markdown(
       .stCaption {{
         color: rgba(0,0,0,0.70) !important;
       }}
-
-      /* ---- Fix number_input +/- buttons on Streamlit Cloud ---- */
-      /* number_input is baseweb input with a "stepper" button group */
-      div[data-baseweb="input"] button {{
-        background: #ffffff !important;
-        color: #111111 !important;
-        border-left: 1px solid rgba(0,0,0,0.15) !important;
-      }}
-      div[data-baseweb="input"] button:hover {{
-        background: #f3f3f3 !important;
-      }}
-      div[data-baseweb="input"] button svg {{
-        fill: #111111 !important;
-        color: #111111 !important;
-      }}
-
-      /* Some deployments render the stepper as a separate group */
-      div[data-baseweb="button-group"] {{
-        background: #ffffff !important;
-        border-radius: 10px !important;
-      }}
-      div[data-baseweb="button-group"] button {{
-        background: #ffffff !important;
-        color: #111111 !important;
-      }}
-      div[data-baseweb="button-group"] button svg {{
-        fill: #111111 !important;
-      }}
     </style>
     """,
     unsafe_allow_html=True,
@@ -180,6 +152,17 @@ def df_to_newick(df_expanded: pd.DataFrame, model_name: str) -> str:
     return f"({clusters}){escape_newick_label(model_name)};"
 
 
+def parse_nonneg_int(s: str, default: int) -> int:
+    s = (s or "").strip()
+    if s == "":
+        return default
+    try:
+        v = int(s)
+        return v if v >= 0 else default
+    except ValueError:
+        return default
+
+
 # -----------------------------
 # Load data (fixed CSV)
 # -----------------------------
@@ -198,12 +181,12 @@ if missing:
 df = expand_interpretations(df_raw)
 all_clusters = sorted(df["Cluster_Category"].dropna().unique().tolist())
 
-# --- IMPORTANT: columns layout ---
+# --- layout: filters left, plot right ---
 left, right = st.columns([1, 2], gap="large")
 
 with left:
     st.subheader("Filters")
-    st.caption("Word sense clusters are added manually to improve the visualisation and are not part of the WeInterpret output.")
+    st.caption("PLACEHOLDER: short description of the filters goes here. (You will update this.)")
 
     clusters_sel = st.multiselect(
         "Cluster_Category",
@@ -211,24 +194,21 @@ with left:
         default=all_clusters[: min(5, len(all_clusters))],
     )
 
-    max_interpretations = st.number_input(
+    # TEXT INPUTS (no +/- buttons)
+    max_interpretations_txt = st.text_input(
         "Max interpretations per cluster (0 = no cap)",
-        min_value=0,
-        max_value=5000,
-        value=30,
-        step=1,
+        value="30",
+    )
+    max_dims_txt = st.text_input(
+        "Max dimensions per interpretation (0 = no cap)",
+        value="10",
     )
 
-    max_dims_per_interp = st.number_input(
-        "Max dimensions per interpretation (0 = no cap)",
-        min_value=0,
-        max_value=5000,
-        value=10,
-        step=1,
-    )
+    max_interpretations = parse_nonneg_int(max_interpretations_txt, default=30)
+    max_dims_per_interp = parse_nonneg_int(max_dims_txt, default=10)
 
     show_cluster_labels = st.checkbox("Show cluster labels", value=True)
-    show_interpretation_labels = st.checkbox("Show interpretation labels", value=True)
+    show_interpretation_labels = st.checkbox("Show interpretation labels", value=False)
 
 # Apply filters
 df_f = df.copy()
@@ -236,6 +216,7 @@ df_f = df.copy()
 if clusters_sel:
     df_f = df_f[df_f["Cluster_Category"].isin(clusters_sel)]
 
+# Cap interpretations per cluster by frequency
 if max_interpretations and max_interpretations > 0:
     keep_parts = []
     for cluster, g in df_f.groupby("Cluster_Category"):
@@ -243,6 +224,7 @@ if max_interpretations and max_interpretations > 0:
         keep_parts.append(g[g["Interpretation"].isin(top_interps)])
     df_f = pd.concat(keep_parts, ignore_index=True) if keep_parts else df_f.iloc[0:0]
 
+# Cap dimensions per interpretation by frequency
 if max_dims_per_interp and max_dims_per_interp > 0:
     keep_parts = []
     for (cluster, interp), g in df_f.groupby(["Cluster_Category", "Interpretation"]):
@@ -256,12 +238,12 @@ if df_f.empty:
 
 newick = df_to_newick(df_f, model_name="WeInterpret")
 
-# --- JS-safe injections ---
+# JS-safe injections
 newick_js = json.dumps(newick)
 show_cluster_js = "true" if show_cluster_labels else "false"
 show_interp_js = "true" if show_interpretation_labels else "false"
 
-# IMPORTANT: not an f-string
+# IMPORTANT: not an f-string (so ${...} stays JS)
 html = """
 <div style="font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif; color:#111;">
   <div id="legend" style="font-size:12px; margin: 6px 0 10px 0; color:#111;"></div>
@@ -561,6 +543,5 @@ html = (
         .replace("__SHOW_INTERP__", show_interp_js)
 )
 
-# IMPORTANT: render inside RIGHT column
 with right:
     components.html(html, height=1100, scrolling=True)
