@@ -84,6 +84,34 @@ st.markdown(
       .stCaption {{
         color: rgba(0,0,0,0.70) !important;
       }}
+
+      /* ---- Fix number_input +/- buttons on Streamlit Cloud ---- */
+      /* number_input is baseweb input with a "stepper" button group */
+      div[data-baseweb="input"] button {{
+        background: #ffffff !important;
+        color: #111111 !important;
+        border-left: 1px solid rgba(0,0,0,0.15) !important;
+      }}
+      div[data-baseweb="input"] button:hover {{
+        background: #f3f3f3 !important;
+      }}
+      div[data-baseweb="input"] button svg {{
+        fill: #111111 !important;
+        color: #111111 !important;
+      }}
+
+      /* Some deployments render the stepper as a separate group */
+      div[data-baseweb="button-group"] {{
+        background: #ffffff !important;
+        border-radius: 10px !important;
+      }}
+      div[data-baseweb="button-group"] button {{
+        background: #ffffff !important;
+        color: #111111 !important;
+      }}
+      div[data-baseweb="button-group"] button svg {{
+        fill: #111111 !important;
+      }}
     </style>
     """,
     unsafe_allow_html=True,
