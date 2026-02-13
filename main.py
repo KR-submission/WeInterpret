@@ -186,7 +186,7 @@ left, right = st.columns([1, 2], gap="large")
 
 with left:
     st.subheader("Filters")
-    st.caption("PLACEHOLDER: short description of the filters goes here. (You will update this.)")
+    st.caption("The clusters are added manually to improve visualisation and are not part of the WeInterpret output.")
 
     clusters_sel = st.multiselect(
         "Cluster_Category",
@@ -208,7 +208,7 @@ with left:
     max_dims_per_interp = parse_nonneg_int(max_dims_txt, default=10)
 
     show_cluster_labels = st.checkbox("Show cluster labels", value=True)
-    show_interpretation_labels = st.checkbox("Show interpretation labels", value=False)
+    show_interpretation_labels = st.checkbox("Show interpretation labels", value=True)
 
 # Apply filters
 df_f = df.copy()
