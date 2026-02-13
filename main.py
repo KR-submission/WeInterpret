@@ -24,14 +24,6 @@ st.set_page_config(page_title="WeInterpret", page_icon="W", layout="wide")
 st.markdown(
     f"""
     <style>
-      /* Force Streamlit theme variables (fixes “random black” widget text) */
-      :root {{
-        --text-color: #111111;
-        --secondary-text-color: #111111;
-        --widget-label-color: #111111;
-      }}
-
-      /* Remove Streamlit header band */
       header[data-testid="stHeader"] {{
         display: none;
       }}
@@ -39,7 +31,6 @@ st.markdown(
         padding-top: 0.8rem;
       }}
 
-      /* Background */
       .stApp {{
         background-color: {BG};
       }}
@@ -47,12 +38,12 @@ st.markdown(
         background-color: {BG};
       }}
 
-      /* Force readable text colour everywhere */
+      /* readable text */
       .stApp, .stApp * {{
         color: #111111 !important;
       }}
 
-      /* Title in Times New Roman + larger */
+      /* Title */
       h1 {{
         font-family: "Times New Roman", Times, serif !important;
         font-size: 56px !important;
@@ -60,8 +51,7 @@ st.markdown(
         margin-bottom: 0.4rem !important;
       }}
 
-      /* Make all inputs white (cloud themes often override these) */
-      /* Text inputs / number inputs */
+      /* Make all Streamlit inputs white */
       div[data-baseweb="input"] > div {{
         background-color: #ffffff !important;
         border-radius: 10px !important;
@@ -69,8 +59,6 @@ st.markdown(
       div[data-baseweb="input"] input {{
         color: #111111 !important;
       }}
-
-      /* Text area */
       div[data-baseweb="textarea"] > div {{
         background-color: #ffffff !important;
         border-radius: 10px !important;
@@ -78,8 +66,6 @@ st.markdown(
       div[data-baseweb="textarea"] textarea {{
         color: #111111 !important;
       }}
-
-      /* Select / multiselect control */
       div[data-baseweb="select"] > div {{
         background-color: #ffffff !important;
         border-radius: 10px !important;
@@ -87,151 +73,21 @@ st.markdown(
       div[data-baseweb="select"] * {{
         color: #111111 !important;
       }}
-
-      /* Multiselect chips */
       span[data-baseweb="tag"] {{
         background-color: #f2f2f2 !important;
         color: #111111 !important;
         border: 1px solid rgba(0,0,0,0.15) !important;
       }}
-
-      /* Checkbox / radio labels (checked + unchecked) */
       label, label * {{
         color: #111111 !important;
       }}
-      label[data-testid="stCheckbox"] span {{
-        color: #111111 !important;
-      }}
-
-      /* Slider labels */
-      label[data-testid="stWidgetLabel"] {{
-        color: #111111 !important;
-      }}
-      div[data-testid="stSlider"] * {{
-        color: #111111 !important;
-      }}
-
-      /* Plus/minus buttons */
-      button[kind="secondary"] {{
-        color: #111111 !important;
-      }}
-
-      /* Expander / captions */
       .stCaption {{
         color: rgba(0,0,0,0.70) !important;
-      }}
-
-      /* ... keep all your existing CSS ... */
-
-      /* --- Fix number_input +/- stepper (dark block on the right) --- */
-      div[data-testid="stNumberInput"] button[kind="secondary"] {{
-        background: #ffffff !important;
-        border: 1px solid rgba(0,0,0,0.20) !important;
-      }}
-      div[data-testid="stNumberInput"] button[kind="secondary"] * {{
-        color: #111111 !important;
-        fill: #111111 !important;   /* for svg icons */
-      }}
-
-      /* Sometimes the stepper container itself is dark */
-      div[data-testid="stNumberInput"] div[data-baseweb="button-group"] {{
-        background: #ffffff !important;
-        border-radius: 10px !important;
-      }}
-
-      /* --- Fix unchecked checkbox square (often dark in some themes) --- */
-      label[data-testid="stCheckbox"] span[role="checkbox"] {{
-        background: #ffffff !important;
-        border: 1px solid rgba(0,0,0,0.35) !important;
-      }}
-      label[data-testid="stCheckbox"] span[role="checkbox"] svg {{
-        fill: #111111 !important;
-      }}
-
-      /* ===== NumberInput: kill the dark stepper panel (BaseWeb) ===== */
-      div[data-testid="stNumberInput"] div[data-baseweb="button-group"] {{
-        background: #ffffff !important;
-        border: 1px solid rgba(0,0,0,0.20) !important;
-        border-left: 0 !important;                 /* avoids double border next to input */
-      }}
-
-      div[data-testid="stNumberInput"] div[data-baseweb="button-group"] button {{
-        background: #ffffff !important;
-      }}
-
-      div[data-testid="stNumberInput"] div[data-baseweb="button-group"] button svg {{
-        fill: #111111 !important;
-      }}
-
-      /* (Some Streamlit versions use this wrapper instead) */
-      div[data-testid="stNumberInput"] div[data-baseweb="button-group"] > div {{
-        background: #ffffff !important;
-      }}
-
-
-      /* ===== Multiselect: make the clear (x) + dropdown icon not black ===== */
-      div[data-baseweb="select"] [aria-label="Clear value"] {{
-        background: #ffffff !important;
-        border: 1px solid rgba(0,0,0,0.20) !important;
-        border-radius: 999px !important;
-      }}
-
-      div[data-baseweb="select"] [aria-label="Clear value"] svg {{
-        fill: #111111 !important;
-      }}
-
-      div[data-baseweb="select"] svg {{
-        fill: #111111 !important;                  /* dropdown chevron, etc. */
-      }}
-
-      /* ===== Nuclear option: BaseWeb button-groups (Streamlit steppers) ===== */
-      div[data-baseweb="button-group"],
-      div[data-baseweb="button-group"] > div,
-      div[data-baseweb="button-group"] button {{
-        background: #ffffff !important;
-      }}
-
-      div[data-baseweb="button-group"] {{
-        border: 1px solid rgba(0,0,0,0.20) !important;
-        border-radius: 10px !important;
-      }}
-
-      div[data-baseweb="button-group"] svg {{
-        fill: #111111 !important;
-      }}
-
-      /* If the dark colour is coming from a CSS variable */
-      :root {{
-        --background-color: #ffffff !important;
-      }}
-
-      /* ===== Fix NumberInput +/- panel using Streamlit testids ===== */
-
-      /* Style the stepper buttons themselves */
-      button[data-testid="stNumberInputStepUp"],
-      button[data-testid="stNumberInputStepDown"] {{
-        background: #ffffff !important;
-        color: #111111 !important;                 /* drives svg via currentColor */
-        border: 1px solid rgba(0,0,0,0.20) !important;
-      }}
-
-      /* Ensure the svg inherits the right colour */
-      button[data-testid="stNumberInputStepUp"] svg,
-      button[data-testid="stNumberInputStepDown"] svg {{
-        fill: currentColor !important;
-        color: inherit !important;
-      }}
-
-      /* If there’s a dark wrapper around the buttons, hit their immediate parent */
-      button[data-testid="stNumberInputStepUp"]::before,
-      button[data-testid="stNumberInputStepDown"]::before {{
-        background: transparent !important;
       }}
     </style>
     """,
     unsafe_allow_html=True,
 )
-
 
 st.title("WeInterpret")
 st.write(DESC)
@@ -285,14 +141,12 @@ def df_to_newick(df_expanded: pd.DataFrame, model_name: str) -> str:
 
     def cluster_node(cluster: str, interps: dict) -> str:
         children = ",".join(
-            interp_node(i, dims)
-            for i, dims in sorted(interps.items(), key=lambda x: x[0])
+            interp_node(i, dims) for i, dims in sorted(interps.items(), key=lambda x: x[0])
         )
         return f"({children}){escape_newick_label(cluster)}:1.0"
 
     clusters = ",".join(
-        cluster_node(c, interps)
-        for c, interps in sorted(tree.items(), key=lambda x: x[0])
+        cluster_node(c, interps) for c, interps in sorted(tree.items(), key=lambda x: x[0])
     )
 
     return f"({clusters}){escape_newick_label(model_name)};"
@@ -307,7 +161,6 @@ if not CSV_PATH.exists():
     st.stop()
 
 df_raw = pd.read_csv(CSV_PATH)
-
 required = {"Interpretation", "Dimension_Index", "Cluster_Category"}
 missing = required - set(df_raw.columns)
 if missing:
@@ -317,6 +170,7 @@ if missing:
 df = expand_interpretations(df_raw)
 all_clusters = sorted(df["Cluster_Category"].dropna().unique().tolist())
 
+# --- IMPORTANT: columns layout ---
 left, right = st.columns([1, 2], gap="large")
 
 with left:
@@ -346,7 +200,7 @@ with left:
     )
 
     show_cluster_labels = st.checkbox("Show cluster labels", value=True)
-    show_interpretation_labels = st.checkbox("Show interpretation labels", value=False)
+    show_interpretation_labels = st.checkbox("Show interpretation labels", value=True)
 
 # Apply filters
 df_f = df.copy()
@@ -374,12 +228,13 @@ if df_f.empty:
 
 newick = df_to_newick(df_f, model_name="WeInterpret")
 
-with right:
-    newick_js = json.dumps(newick)
-    show_cluster_js = "true" if show_cluster_labels else "false"
-    show_interp_js = "true" if show_interpretation_labels else "false"
+# --- JS-safe injections ---
+newick_js = json.dumps(newick)
+show_cluster_js = "true" if show_cluster_labels else "false"
+show_interp_js = "true" if show_interpretation_labels else "false"
 
-    html = """
+# IMPORTANT: not an f-string
+html = """
 <div style="font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif; color:#111;">
   <div id="legend" style="font-size:12px; margin: 6px 0 10px 0; color:#111;"></div>
   <div id="mount" style="position:relative;">
@@ -446,14 +301,15 @@ with right:
   const tooltipEl = document.getElementById("tooltip");
 
   let pinned = null;
+  const norm = (s) => String(s || "").replaceAll("_", " ");
 
   function formatTrail(d) {
     const a = d.ancestors().reverse().map(x => x.data.name).filter(Boolean);
-    const model = a[0] ?? "";
     const cluster = a[1] ?? "";
     const interp = a[2] ?? "";
-    const dim = a[a.length - 1] ?? "";
-    return { model, cluster, interp, dim };
+    const isLeaf = !d.children;
+    const dim = isLeaf ? (a[a.length - 1] ?? "") : "";
+    return { cluster, interp, dim, isLeaf, depth: d.depth };
   }
 
   function clear() {
@@ -511,7 +367,7 @@ with right:
 
       const label = document.createElement("span");
       label.style.color = "#111";
-      label.textContent = String(c || "").replaceAll("_", " ");
+      label.textContent = norm(c);
 
       row.appendChild(swatch);
       row.appendChild(label);
@@ -542,7 +398,8 @@ with right:
         .attr("stroke-width", d => d.source.depth === 0 ? 1.8 : 1.0)
         .attr("opacity", 0.9)
         .attr("d", linkRadial);
-    // --- Nodes (small dots) ---
+
+    // Dots
     const nodesSel = g.append("g")
       .selectAll("circle")
       .data(root.descendants())
@@ -554,14 +411,11 @@ with right:
         .attr("r", d => (d.depth === 0 ? 2.6 : 2.0))
         .attr("fill", d => (d.depth === 0 ? "#111" : (d.color || "#666")))
         .attr("opacity", 0.95);
-    // Labels selection
-    let labelNodes = root.leaves(); // always show dimensions
-    if (SHOW_CLUSTER_LABELS) {
-      labelNodes = labelNodes.concat(root.descendants().filter(d => d.depth === 1));
-    }
-    if (SHOW_INTERP_LABELS) {
-      labelNodes = labelNodes.concat(root.descendants().filter(d => d.depth === 2));
-    }
+
+    // Labels (original positioning)
+    let labelNodes = root.leaves(); // dimensions always
+    if (SHOW_CLUSTER_LABELS) labelNodes = labelNodes.concat(root.descendants().filter(d => d.depth === 1));
+    if (SHOW_INTERP_LABELS)  labelNodes = labelNodes.concat(root.descendants().filter(d => d.depth === 2));
 
     const labelsSel = g.append("g")
       .selectAll("text")
@@ -577,14 +431,12 @@ with right:
         .attr("text-anchor", d => d.x >= Math.PI ? "end" : "start")
         .attr("font-size", d => (d.depth === 3 ? 12 : 11))
         .attr("font-weight", d => (d.depth <= 2 ? 650 : 400))
-        .text(d => d.data.name);
+        .text(d => norm(d.data.name));
 
-    function pathSet(leaf) {
-      return new Set(leaf.ancestors());
-    }
+    function pathSet(node) { return new Set(node.ancestors()); }
 
-    function applyHighlight(leafOrNull) {
-      const ps = leafOrNull ? pathSet(leafOrNull) : null;
+    function applyHighlight(nodeOrNull) {
+      const ps = nodeOrNull ? pathSet(nodeOrNull) : null;
 
       linksSel
         .attr("opacity", l => (ps ? (ps.has(l.target) ? 1.0 : 0.15) : 0.9))
@@ -592,44 +444,44 @@ with right:
           if (!ps) return (l.source.depth === 0 ? 1.8 : 1.0);
           return ps.has(l.target) ? 2.6 : 0.8;
         });
-      
+
+      labelsSel
+        .attr("opacity", t => (ps ? (ps.has(t) ? 1.0 : 0.25) : 1.0))
+        .attr("font-weight", t => (ps && ps.has(t) ? 700 : (t.depth <= 2 ? 650 : 400)));
+
       nodesSel
         .attr("opacity", n => (ps ? (ps.has(n) ? 1.0 : 0.12) : 0.95))
         .attr("r", n => {
           if (!ps) return (n.depth === 0 ? 2.6 : 2.0);
           return ps.has(n) ? (n.depth === 0 ? 3.0 : 2.6) : 1.6;
         });
-
-      labelsSel
-        .attr("opacity", t => (ps ? (ps.has(t) ? 1.0 : 0.25) : 1.0))
-        .attr("font-weight", t => (ps && ps.has(t) ? 700 : 400));
     }
 
     function showTip(evt, d) {
-      const { model, cluster, interp, dim } = formatTrail(d);
-      tooltipEl.innerHTML = `
-        <div><b>Model</b>: ${model.replaceAll("_"," ")}</div>
-        <div><b>Cluster</b>: ${cluster.replaceAll("_"," ")}</div>
-        <div><b>Interpretation</b>: ${interp.replaceAll("_"," ")}</div>
-        <div><b>Dimension</b>: ${dim.replaceAll("_"," ")}</div>
-        <div style="margin-top:6px;opacity:0.7">Click to pin highlight</div>
-      `;
+      const { cluster, interp, dim, isLeaf, depth } = formatTrail(d);
+
+      let rows = [];
+      rows.push(`<div><b>Cluster</b>: ${norm(cluster)}</div>`);
+      if (depth >= 2 && interp) rows.push(`<div><b>Interpretation</b>: ${norm(interp)}</div>`);
+      if (isLeaf && dim) rows.push(`<div><b>Dimension</b>: ${norm(dim)}</div>`);
+      rows.push(`<div style="margin-top:6px;opacity:0.7">Click to pin highlight</div>`);
+
+      tooltipEl.innerHTML = rows.join("");
       tooltipEl.style.display = "block";
+
       const r = mountEl.getBoundingClientRect();
       tooltipEl.style.left = `${evt.clientX - r.left + 12}px`;
-      tooltipEl.style.top = `${evt.clientY - r.top + 12}px`;
+      tooltipEl.style.top  = `${evt.clientY - r.top + 12}px`;
     }
 
     function moveTip(evt) {
       if (tooltipEl.style.display === "none") return;
       const r = mountEl.getBoundingClientRect();
       tooltipEl.style.left = `${evt.clientX - r.left + 12}px`;
-      tooltipEl.style.top = `${evt.clientY - r.top + 12}px`;
+      tooltipEl.style.top  = `${evt.clientY - r.top + 12}px`;
     }
 
-    function hideTip() {
-      tooltipEl.style.display = "none";
-    }
+    function hideTip() { tooltipEl.style.display = "none"; }
 
     labelsSel
       .on("mousemove", (evt, d) => {
@@ -664,9 +516,7 @@ with right:
 
     const zoom = d3.zoom()
       .scaleExtent([0.6, 8])
-      .on("zoom", (evt) => {
-        g.attr("transform", evt.transform);
-      });
+      .on("zoom", (evt) => g.attr("transform", evt.transform));
 
     svg.call(zoom);
 
@@ -677,10 +527,12 @@ with right:
 </script>
 """
 
-    html = (
-        html.replace("__NEWICK_JSON__", newick_js)
+html = (
+    html.replace("__NEWICK_JSON__", newick_js)
         .replace("__SHOW_CLUSTER__", show_cluster_js)
         .replace("__SHOW_INTERP__", show_interp_js)
-    )
+)
 
+# IMPORTANT: render inside RIGHT column
+with right:
     components.html(html, height=1100, scrolling=True)
